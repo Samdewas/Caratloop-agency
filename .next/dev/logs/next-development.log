@@ -1,0 +1,28 @@
+[00:00:04.144] Server  LOG      ✓ Ready in 3.8s
+[00:00:15.202] Server  LOG      ○ Compiling / ...
+[00:00:20.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.268] Browser WARN    Element not found: .shape
+[00:00:21.268] Browser WARN    Image with src "/_next/static/media/project-1.40bbff75.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:21.268] Browser WARN    Image with src "/_next/static/media/project-2.1171917c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:21.268] Browser WARN    Image with src "/_next/static/media/project-3.cceff5b1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:21.268] Browser LOG     Bootstrap loaded
+[00:00:21.268] Browser WARN    GSAP target .tp-bounce not found. https://gsap.com
+[00:00:21.268] Browser WARN    Element not found: .tp-video-area
+[00:00:21.268] Browser WARN    GSAP target .tp-video-thumb-wrap not found. https://gsap.com
+[00:02:28.421] Browser WARN    Element not found: .tp-video-area
+[00:02:28.424] Browser WARN    GSAP target .tp-video-thumb-wrap not found. https://gsap.com
+[00:03:25.391] Server  LOG      ✓ Compiled in 70ms
+[00:03:25.516] Server  LOG      ✓ Compiled in 19ms
+[00:03:25.652] Server  LOG      ✓ Compiled in 11ms
+[00:03:26.241] Server  LOG      ✓ Compiled in 30ms
+[00:24:06.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:07.206] Browser WARN    Element not found: .shape
+[00:24:07.206] Browser LOG     Bootstrap loaded
+[00:24:07.206] Browser WARN    Image with src "/_next/static/media/abt-1.258dbb62.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:24:07.206] Browser WARN    GSAP target .tp-bounce not found. https://gsap.com
+[00:24:07.206] Browser WARN    Element not found: .tp-video-area
+[00:24:07.206] Browser WARN    GSAP target .tp-video-thumb-wrap not found. https://gsap.com
+[00:24:20.834] Browser WARN    Image with src "/_next/static/media/project-1.40bbff75.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:20.834] Browser WARN    Image with src "/_next/static/media/project-3.cceff5b1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:20.834] Browser WARN    Image with src "/_next/static/media/project-2.1171917c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
