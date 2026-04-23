@@ -1,254 +1,168 @@
-(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
-"[project]/node_modules/next/dist/shared/lib/side-effect.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+module.exports = [
+"[project]/public/assets/img/error/error.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/error.9abffaa1.png");}),
+"[project]/public/assets/img/error/error.png.mjs { IMAGE => \"[project]/public/assets/img/error/error.png (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$img$2f$error$2f$error$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__ = __turbopack_context__.i("[project]/public/assets/img/error/error.png (static in ecmascript, tag client)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$img$2f$error$2f$error$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
+    width: 866,
+    height: 340,
+    blurWidth: 8,
+    blurHeight: 3,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAbklEQVR42gFjAJz/ADIyMziysrTKUFBSaImJjMWSkZXFLS0uTHt7fYudnZ+xAJycnrC+vsHYeXl7jomJi7ORkZO2goKEo7Gxs8isrK7DAGdnaHSsrK/DYmJkdJeXmryenqG7TU1OWIGBg5Gzs7XK1dg00SFbSIAAAAAASUVORK5CYII="
+};
+}),
+"[project]/src/app/not-found.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>NotFound,
+    "metadata",
+    ()=>metadata
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$img$2f$error$2f$error$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$assets$2f$img$2f$error$2f$error$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/assets/img/error/error.png.mjs { IMAGE => "[project]/public/assets/img/error/error.png (static in ecmascript, tag client)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
+;
+;
+;
+;
+const metadata = {
+    title: "Agntix - 404 Not Found Page"
+};
+function NotFound() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "tp-error-area pt-190 pb-120",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "row",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "col-xl-12",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "tp-error-wrapper text-center",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                    className: "tp-error-title",
+                                    children: "Oops!"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/not-found.tsx",
+                                    lineNumber: 18,
+                                    columnNumber: 33
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$img$2f$error$2f$error$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$assets$2f$img$2f$error$2f$error$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                                    alt: "error"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/not-found.tsx",
+                                    lineNumber: 19,
+                                    columnNumber: 33
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "tp-error-content",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "tp-error-title-sm",
+                                            children: "Something went Wrong..."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/not-found.tsx",
+                                            lineNumber: 21,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            children: [
+                                                "Sorry, we ",
+                                                `couldn't`,
+                                                " find your page."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/not-found.tsx",
+                                            lineNumber: 22,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            className: "tp-btn",
+                                            href: "/",
+                                            children: "Back to Home"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/not-found.tsx",
+                                            lineNumber: 23,
+                                            columnNumber: 37
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/not-found.tsx",
+                                    lineNumber: 20,
+                                    columnNumber: 33
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/not-found.tsx",
+                            lineNumber: 17,
+                            columnNumber: 29
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/not-found.tsx",
+                        lineNumber: 16,
+                        columnNumber: 25
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/not-found.tsx",
+                    lineNumber: 15,
+                    columnNumber: 21
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/not-found.tsx",
+                lineNumber: 14,
+                columnNumber: 17
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/not-found.tsx",
+            lineNumber: 13,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/app/not-found.tsx",
+        lineNumber: 12,
+        columnNumber: 9
+    }, this);
+}
+}),
+"[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-Object.defineProperty(exports, "default", {
+Object.defineProperty(exports, "warnOnce", {
     enumerable: true,
     get: function() {
-        return SideEffect;
+        return warnOnce;
     }
 });
-const _react = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-const isServer = typeof window === 'undefined';
-const useClientOnlyLayoutEffect = isServer ? ()=>{} : _react.useLayoutEffect;
-const useClientOnlyEffect = isServer ? ()=>{} : _react.useEffect;
-function SideEffect(props) {
-    const { headManager, reduceComponentsToState } = props;
-    function emitChange() {
-        if (headManager && headManager.mountedInstances) {
-            const headElements = _react.Children.toArray(Array.from(headManager.mountedInstances).filter(Boolean));
-            headManager.updateHead(reduceComponentsToState(headElements));
+let warnOnce = (_)=>{};
+if ("TURBOPACK compile-time truthy", 1) {
+    const warnings = new Set();
+    warnOnce = (msg)=>{
+        if (!warnings.has(msg)) {
+            console.warn(msg);
         }
-    }
-    if (isServer) {
-        headManager?.mountedInstances?.add(props.children);
-        emitChange();
-    }
-    useClientOnlyLayoutEffect({
-        "SideEffect.useClientOnlyLayoutEffect": ()=>{
-            headManager?.mountedInstances?.add(props.children);
-            return ({
-                "SideEffect.useClientOnlyLayoutEffect": ()=>{
-                    headManager?.mountedInstances?.delete(props.children);
-                }
-            })["SideEffect.useClientOnlyLayoutEffect"];
-        }
-    }["SideEffect.useClientOnlyLayoutEffect"]);
-    // We need to call `updateHead` method whenever the `SideEffect` is trigger in all
-    // life-cycles: mount, update, unmount. However, if there are multiple `SideEffect`s
-    // being rendered, we only trigger the method from the last one.
-    // This is ensured by keeping the last unflushed `updateHead` in the `_pendingUpdate`
-    // singleton in the layout effect pass, and actually trigger it in the effect pass.
-    useClientOnlyLayoutEffect({
-        "SideEffect.useClientOnlyLayoutEffect": ()=>{
-            if (headManager) {
-                headManager._pendingUpdate = emitChange;
-            }
-            return ({
-                "SideEffect.useClientOnlyLayoutEffect": ()=>{
-                    if (headManager) {
-                        headManager._pendingUpdate = emitChange;
-                    }
-                }
-            })["SideEffect.useClientOnlyLayoutEffect"];
-        }
-    }["SideEffect.useClientOnlyLayoutEffect"]);
-    useClientOnlyEffect({
-        "SideEffect.useClientOnlyEffect": ()=>{
-            if (headManager && headManager._pendingUpdate) {
-                headManager._pendingUpdate();
-                headManager._pendingUpdate = null;
-            }
-            return ({
-                "SideEffect.useClientOnlyEffect": ()=>{
-                    if (headManager && headManager._pendingUpdate) {
-                        headManager._pendingUpdate();
-                        headManager._pendingUpdate = null;
-                    }
-                }
-            })["SideEffect.useClientOnlyEffect"];
-        }
-    }["SideEffect.useClientOnlyEffect"]);
-    return null;
-} //# sourceMappingURL=side-effect.js.map
-}),
-"[project]/node_modules/next/dist/shared/lib/head.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
-"use strict";
-
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-'use client';
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-0 && (module.exports = {
-    default: null,
-    defaultHead: null
-});
-function _export(target, all) {
-    for(var name in all)Object.defineProperty(target, name, {
-        enumerable: true,
-        get: all[name]
-    });
-}
-_export(exports, {
-    default: function() {
-        return _default;
-    },
-    defaultHead: function() {
-        return defaultHead;
-    }
-});
-const _interop_require_default = (()=>{
-    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
-const _interop_require_wildcard = (()=>{
-    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
-const _jsxruntime = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
-const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
-const _sideeffect = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/side-effect.js [app-client] (ecmascript)"));
-const _headmanagercontextsharedruntime = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/head-manager-context.shared-runtime.js [app-client] (ecmascript)");
-const _warnonce = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [app-client] (ecmascript)");
-function defaultHead() {
-    const head = [
-        /*#__PURE__*/ (0, _jsxruntime.jsx)("meta", {
-            charSet: "utf-8"
-        }, "charset"),
-        /*#__PURE__*/ (0, _jsxruntime.jsx)("meta", {
-            name: "viewport",
-            content: "width=device-width"
-        }, "viewport")
-    ];
-    return head;
-}
-function onlyReactElement(list, child) {
-    // React children can be "string" or "number" in this case we ignore them for backwards compat
-    if (typeof child === 'string' || typeof child === 'number') {
-        return list;
-    }
-    // Adds support for React.Fragment
-    if (child.type === _react.default.Fragment) {
-        return list.concat(_react.default.Children.toArray(child.props.children).reduce((fragmentList, fragmentChild)=>{
-            if (typeof fragmentChild === 'string' || typeof fragmentChild === 'number') {
-                return fragmentList;
-            }
-            return fragmentList.concat(fragmentChild);
-        }, []));
-    }
-    return list.concat(child);
-}
-const METATYPES = [
-    'name',
-    'httpEquiv',
-    'charSet',
-    'itemProp'
-];
-/*
- returns a function for filtering head child elements
- which shouldn't be duplicated, like <title/>
- Also adds support for deduplicated `key` properties
-*/ function unique() {
-    const keys = new Set();
-    const tags = new Set();
-    const metaTypes = new Set();
-    const metaCategories = {};
-    return (h)=>{
-        let isUnique = true;
-        let hasKey = false;
-        if (h.key && typeof h.key !== 'number' && h.key.indexOf('$') > 0) {
-            hasKey = true;
-            const key = h.key.slice(h.key.indexOf('$') + 1);
-            if (keys.has(key)) {
-                isUnique = false;
-            } else {
-                keys.add(key);
-            }
-        }
-        // eslint-disable-next-line default-case
-        switch(h.type){
-            case 'title':
-            case 'base':
-                if (tags.has(h.type)) {
-                    isUnique = false;
-                } else {
-                    tags.add(h.type);
-                }
-                break;
-            case 'meta':
-                for(let i = 0, len = METATYPES.length; i < len; i++){
-                    const metatype = METATYPES[i];
-                    if (!h.props.hasOwnProperty(metatype)) continue;
-                    if (metatype === 'charSet') {
-                        if (metaTypes.has(metatype)) {
-                            isUnique = false;
-                        } else {
-                            metaTypes.add(metatype);
-                        }
-                    } else {
-                        const category = h.props[metatype];
-                        const categories = metaCategories[metatype] || new Set();
-                        if ((metatype !== 'name' || !hasKey) && categories.has(category)) {
-                            isUnique = false;
-                        } else {
-                            categories.add(category);
-                            metaCategories[metatype] = categories;
-                        }
-                    }
-                }
-                break;
-        }
-        return isUnique;
+        warnings.add(msg);
     };
-}
-/**
- *
- * @param headChildrenElements List of children of <Head>
- */ function reduceComponents(headChildrenElements) {
-    return headChildrenElements.reduce(onlyReactElement, []).reverse().concat(defaultHead().reverse()).filter(unique()).reverse().map((c, i)=>{
-        const key = c.key || i;
-        if ("TURBOPACK compile-time truthy", 1) {
-            // omit JSON-LD structured data snippets from the warning
-            if (c.type === 'script' && c.props['type'] !== 'application/ld+json') {
-                const srcMessage = c.props['src'] ? `<script> tag with src="${c.props['src']}"` : `inline <script>`;
-                (0, _warnonce.warnOnce)(`Do not add <script> tags using next/head (see ${srcMessage}). Use next/script instead. \nSee more info here: https://nextjs.org/docs/messages/no-script-tags-in-head-component`);
-            } else if (c.type === 'link' && c.props['rel'] === 'stylesheet') {
-                (0, _warnonce.warnOnce)(`Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="${c.props['href']}"). Use Document instead. \nSee more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component`);
-            }
-        }
-        return /*#__PURE__*/ _react.default.cloneElement(c, {
-            key
-        });
-    });
-}
-/**
- * This component injects elements to `<head>` of your page.
- * To avoid duplicated `tags` in `<head>` you can use the `key` property, which will make sure every tag is only rendered once.
- */ function Head({ children }) {
-    const headManager = (0, _react.useContext)(_headmanagercontextsharedruntime.HeadManagerContext);
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_sideeffect.default, {
-        reduceComponentsToState: reduceComponents,
-        headManager: headManager,
-        children: children
-    });
-}
-const _default = Head;
-if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {
-    Object.defineProperty(exports.default, '__esModule', {
-        value: true
-    });
-    Object.assign(exports.default, exports);
-    module.exports = exports.default;
-} //# sourceMappingURL=head.js.map
+} //# sourceMappingURL=warn-once.js.map
 }),
-"[project]/node_modules/next/dist/shared/lib/image-blur-svg.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/shared/lib/image-blur-svg.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
 /**
@@ -271,7 +185,7 @@ function getImageBlurSvg({ widthInt, heightInt, blurWidth, blurHeight, blurDataU
     return `%3Csvg xmlns='http://www.w3.org/2000/svg' ${viewBox}%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='${std}'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='${std}'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='${preserveAspectRatio}' style='filter: url(%23b);' href='${blurDataURL}'/%3E%3C/svg%3E`;
 } //# sourceMappingURL=image-blur-svg.js.map
 }),
-"[project]/node_modules/next/dist/shared/lib/image-config.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/shared/lib/image-config.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -346,11 +260,9 @@ const imageConfigDefault = {
     unoptimized: false
 }; //# sourceMappingURL=image-config.js.map
 }),
-"[project]/node_modules/next/dist/shared/lib/get-img-props.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/shared/lib/get-img-props.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
@@ -360,9 +272,9 @@ Object.defineProperty(exports, "getImgProps", {
         return getImgProps;
     }
 });
-const _warnonce = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [app-client] (ecmascript)");
-const _imageblursvg = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-blur-svg.js [app-client] (ecmascript)");
-const _imageconfig = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-config.js [app-client] (ecmascript)");
+const _warnonce = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [app-rsc] (ecmascript)");
+const _imageblursvg = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-blur-svg.js [app-rsc] (ecmascript)");
+const _imageconfig = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-config.js [app-rsc] (ecmascript)");
 const VALID_LOADING_VALUES = [
     'lazy',
     'eager',
@@ -807,28 +719,8 @@ function getImgProps({ src, sizes, unoptimized = false, priority = false, preloa
                 (0, _warnonce.warnOnce)(`Image with src "${src}" has legacy prop "${legacyKey}". Did you forget to run the codemod?` + `\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13`);
             }
         }
-        if (typeof window !== 'undefined' && !perfObserver && window.PerformanceObserver) {
-            perfObserver = new PerformanceObserver((entryList)=>{
-                for (const entry of entryList.getEntries()){
-                    // @ts-ignore - missing "LargestContentfulPaint" class with "element" prop
-                    const imgSrc = entry?.element?.src || '';
-                    const lcpImage = allImgs.get(imgSrc);
-                    if (lcpImage && lcpImage.loading === 'lazy' && lcpImage.placeholder === 'empty' && !lcpImage.src.startsWith('data:') && !lcpImage.src.startsWith('blob:')) {
-                        // https://web.dev/lcp/#measure-lcp-in-javascript
-                        (0, _warnonce.warnOnce)(`Image with src "${lcpImage.src}" was detected as the Largest Contentful Paint (LCP). Please add the \`loading="eager"\` property if this image is above the fold.` + `\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading`);
-                    }
-                }
-            });
-            try {
-                perfObserver.observe({
-                    type: 'largest-contentful-paint',
-                    buffered: true
-                });
-            } catch (err) {
-                // Log error but don't crash the app
-                console.error(err);
-            }
-        }
+        if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+        ;
     }
     const imgStyle = Object.assign(fill ? {
         position: 'absolute',
@@ -879,19 +771,8 @@ function getImgProps({ src, sizes, unoptimized = false, priority = false, preloa
     });
     const loadingFinal = isLazy ? 'lazy' : loading;
     if ("TURBOPACK compile-time truthy", 1) {
-        if (typeof window !== 'undefined') {
-            let fullUrl;
-            try {
-                fullUrl = new URL(imgAttributes.src);
-            } catch (e) {
-                fullUrl = new URL(imgAttributes.src, window.location.href);
-            }
-            allImgs.set(fullUrl.href, {
-                src,
-                loading: loadingFinal,
-                placeholder
-            });
-        }
+        if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+        ;
     }
     const props = {
         ...rest,
@@ -921,58 +802,27 @@ function getImgProps({ src, sizes, unoptimized = false, priority = false, preloa
     };
 } //# sourceMappingURL=get-img-props.js.map
 }),
-"[project]/node_modules/next/dist/shared/lib/image-config-context.shared-runtime.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/client/image-component.js [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__, module, exports) => {
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+const { createClientModuleProxy } = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+__turbopack_context__.n(createClientModuleProxy("[project]/node_modules/next/dist/client/image-component.js <module evaluation>"));
+}),
+"[project]/node_modules/next/dist/client/image-component.js [app-rsc] (client reference proxy)", ((__turbopack_context__, module, exports) => {
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+const { createClientModuleProxy } = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+__turbopack_context__.n(createClientModuleProxy("[project]/node_modules/next/dist/client/image-component.js"));
+}),
+"[project]/node_modules/next/dist/client/image-component.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "ImageConfigContext", {
-    enumerable: true,
-    get: function() {
-        return ImageConfigContext;
-    }
-});
-const _interop_require_default = (()=>{
-    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
-const _react = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
-const _imageconfig = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-config.js [app-client] (ecmascript)");
-const ImageConfigContext = _react.default.createContext(_imageconfig.imageConfigDefault);
-if ("TURBOPACK compile-time truthy", 1) {
-    ImageConfigContext.displayName = 'ImageConfigContext';
-} //# sourceMappingURL=image-config-context.shared-runtime.js.map
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/image-component.js [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/image-component.js [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
 }),
-"[project]/node_modules/next/dist/shared/lib/router-context.shared-runtime.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
-"use strict";
-
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "RouterContext", {
-    enumerable: true,
-    get: function() {
-        return RouterContext;
-    }
-});
-const _interop_require_default = (()=>{
-    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
-const _react = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
-const RouterContext = _react.default.createContext(null);
-if ("TURBOPACK compile-time truthy", 1) {
-    RouterContext.displayName = 'RouterContext';
-} //# sourceMappingURL=router-context.shared-runtime.js.map
-}),
-"[project]/node_modules/next/dist/shared/lib/find-closest-quality.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/shared/lib/find-closest-quality.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -992,9 +842,8 @@ function findClosestQuality(quality, config) {
     return config.qualities.reduce((prev, cur)=>Math.abs(cur - q) < Math.abs(prev - q) ? cur : prev, 0);
 } //# sourceMappingURL=find-closest-quality.js.map
 }),
-"[project]/node_modules/next/dist/compiled/picomatch/index.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/compiled/picomatch/index.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 (()=>{
     "use strict";
     var t = {
@@ -1005,8 +854,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
                     const t = navigator.platform.toLowerCase();
                     return t === "win32" || t === "windows";
                 }
-                if (typeof __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] !== "undefined" && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].platform) {
-                    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].platform === "win32";
+                if (typeof process !== "undefined" && process.platform) {
+                    return process.platform === "win32";
                 }
                 return false;
             };
@@ -2590,7 +2439,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
     module.exports = u;
 })();
 }),
-"[project]/node_modules/next/dist/shared/lib/match-local-pattern.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/shared/lib/match-local-pattern.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2614,7 +2463,7 @@ _export(exports, {
         return matchLocalPattern;
     }
 });
-const _picomatch = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/picomatch/index.js [app-client] (ecmascript)");
+const _picomatch = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/picomatch/index.js [app-rsc] (ecmascript)");
 function matchLocalPattern(pattern, url) {
     if (pattern.search !== undefined) {
         if (pattern.search !== url.search) {
@@ -2637,7 +2486,7 @@ function hasLocalMatch(localPatterns, urlPathAndQuery) {
     return localPatterns.some((p)=>matchLocalPattern(p, url));
 } //# sourceMappingURL=match-local-pattern.js.map
 }),
-"[project]/node_modules/next/dist/shared/lib/match-remote-pattern.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/shared/lib/match-remote-pattern.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2661,7 +2510,7 @@ _export(exports, {
         return matchRemotePattern;
     }
 });
-const _picomatch = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/picomatch/index.js [app-client] (ecmascript)");
+const _picomatch = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/picomatch/index.js [app-rsc] (ecmascript)");
 function matchRemotePattern(pattern, url) {
     if (pattern.protocol !== undefined) {
         if (pattern.protocol.replace(/:$/, '') !== url.protocol.replace(/:$/, '')) {
@@ -2701,11 +2550,9 @@ function hasRemoteMatch(domains, remotePatterns, url) {
     return domains.some((domain)=>url.hostname === domain) || remotePatterns.some((p)=>matchRemotePattern(p, url));
 } //# sourceMappingURL=match-remote-pattern.js.map
 }),
-"[project]/node_modules/next/dist/shared/lib/image-loader.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/shared/lib/image-loader.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
@@ -2715,7 +2562,7 @@ Object.defineProperty(exports, "default", {
         return _default;
     }
 });
-const _findclosestquality = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/find-closest-quality.js [app-client] (ecmascript)");
+const _findclosestquality = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/find-closest-quality.js [app-rsc] (ecmascript)");
 function defaultLoader({ config, src, width, quality }) {
     if (src.startsWith('/') && src.includes('?') && config.localPatterns?.length === 1 && config.localPatterns[0].pathname === '**' && config.localPatterns[0].search === '') {
         throw Object.defineProperty(new Error(`Image with src "${src}" is using a query string which is not configured in images.localPatterns.` + `\nRead more: https://nextjs.org/docs/messages/next-image-unconfigured-localpatterns`), "__NEXT_ERROR_CODE", {
@@ -2750,7 +2597,7 @@ function defaultLoader({ config, src, width, quality }) {
         if (src.startsWith('/') && config.localPatterns) {
             if ("TURBOPACK compile-time truthy", 1) {
                 // We use dynamic require because this should only error in development
-                const { hasLocalMatch } = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/match-local-pattern.js [app-client] (ecmascript)");
+                const { hasLocalMatch } = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/match-local-pattern.js [app-rsc] (ecmascript)");
                 if (!hasLocalMatch(config.localPatterns, src)) {
                     throw Object.defineProperty(new Error(`Invalid src prop (${src}) on \`next/image\` does not match \`images.localPatterns\` configured in your \`next.config.js\`\n` + `See more info: https://nextjs.org/docs/messages/next-image-unconfigured-localpatterns`), "__NEXT_ERROR_CODE", {
                         value: "E426",
@@ -2774,7 +2621,7 @@ function defaultLoader({ config, src, width, quality }) {
             }
             if ("TURBOPACK compile-time truthy", 1) {
                 // We use dynamic require because this should only error in development
-                const { hasRemoteMatch } = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/match-remote-pattern.js [app-client] (ecmascript)");
+                const { hasRemoteMatch } = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/match-remote-pattern.js [app-rsc] (ecmascript)");
                 if (!hasRemoteMatch(config.domains, config.remotePatterns, parsedSrc)) {
                     throw Object.defineProperty(new Error(`Invalid src prop (${src}) on \`next/image\`, hostname "${parsedSrc.hostname}" is not configured under images in your \`next.config.js\`\n` + `See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host`), "__NEXT_ERROR_CODE", {
                         value: "E231",
@@ -2793,90 +2640,28 @@ function defaultLoader({ config, src, width, quality }) {
 defaultLoader.__next_img_default = true;
 const _default = defaultLoader; //# sourceMappingURL=image-loader.js.map
 }),
-"[project]/node_modules/next/dist/client/use-merged-ref.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/shared/lib/image-external.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-Object.defineProperty(exports, "useMergedRef", {
-    enumerable: true,
-    get: function() {
-        return useMergedRef;
-    }
+0 && (module.exports = {
+    default: null,
+    getImageProps: null
 });
-const _react = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-function useMergedRef(refA, refB) {
-    const cleanupA = (0, _react.useRef)(null);
-    const cleanupB = (0, _react.useRef)(null);
-    // NOTE: In theory, we could skip the wrapping if only one of the refs is non-null.
-    // (this happens often if the user doesn't pass a ref to Link/Form/Image)
-    // But this can cause us to leak a cleanup-ref into user code (previously via `<Link legacyBehavior>`),
-    // and the user might pass that ref into ref-merging library that doesn't support cleanup refs
-    // (because it hasn't been updated for React 19)
-    // which can then cause things to blow up, because a cleanup-returning ref gets called with `null`.
-    // So in practice, it's safer to be defensive and always wrap the ref, even on React 19.
-    return (0, _react.useCallback)((current)=>{
-        if (current === null) {
-            const cleanupFnA = cleanupA.current;
-            if (cleanupFnA) {
-                cleanupA.current = null;
-                cleanupFnA();
-            }
-            const cleanupFnB = cleanupB.current;
-            if (cleanupFnB) {
-                cleanupB.current = null;
-                cleanupFnB();
-            }
-        } else {
-            if (refA) {
-                cleanupA.current = applyRef(refA, current);
-            }
-            if (refB) {
-                cleanupB.current = applyRef(refB, current);
-            }
-        }
-    }, [
-        refA,
-        refB
-    ]);
-}
-function applyRef(refA, current) {
-    if (typeof refA === 'function') {
-        const cleanup = refA(current);
-        if (typeof cleanup === 'function') {
-            return cleanup;
-        } else {
-            return ()=>refA(null);
-        }
-    } else {
-        refA.current = current;
-        return ()=>{
-            refA.current = null;
-        };
-    }
-}
-if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {
-    Object.defineProperty(exports.default, '__esModule', {
-        value: true
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
     });
-    Object.assign(exports.default, exports);
-    module.exports = exports.default;
-} //# sourceMappingURL=use-merged-ref.js.map
-}),
-"[project]/node_modules/next/dist/client/image-component.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
-"use strict";
-
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-'use client';
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "Image", {
-    enumerable: true,
-    get: function() {
-        return Image;
+}
+_export(exports, {
+    default: function() {
+        return _default;
+    },
+    getImageProps: function() {
+        return getImageProps;
     }
 });
 const _interop_require_default = (()=>{
@@ -2884,810 +2669,91 @@ const _interop_require_default = (()=>{
     e.code = 'MODULE_NOT_FOUND';
     throw e;
 })();
-const _interop_require_wildcard = (()=>{
-    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
-const _jsxruntime = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
-const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
-const _reactdom = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)"));
-const _head = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/head.js [app-client] (ecmascript)"));
-const _getimgprops = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/get-img-props.js [app-client] (ecmascript)");
-const _imageconfig = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-config.js [app-client] (ecmascript)");
-const _imageconfigcontextsharedruntime = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-config-context.shared-runtime.js [app-client] (ecmascript)");
-const _warnonce = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [app-client] (ecmascript)");
-const _routercontextsharedruntime = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/router-context.shared-runtime.js [app-client] (ecmascript)");
-const _imageloader = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-loader.js [app-client] (ecmascript)"));
-const _usemergedref = __turbopack_context__.r("[project]/node_modules/next/dist/client/use-merged-ref.js [app-client] (ecmascript)");
-// This is replaced by webpack define plugin
-const configEnv = ("TURBOPACK compile-time value", {
-    "deviceSizes": ("TURBOPACK compile-time value", [
-        ("TURBOPACK compile-time value", 640),
-        ("TURBOPACK compile-time value", 750),
-        ("TURBOPACK compile-time value", 828),
-        ("TURBOPACK compile-time value", 1080),
-        ("TURBOPACK compile-time value", 1200),
-        ("TURBOPACK compile-time value", 1920),
-        ("TURBOPACK compile-time value", 2048),
-        ("TURBOPACK compile-time value", 3840)
-    ]),
-    "imageSizes": ("TURBOPACK compile-time value", [
-        ("TURBOPACK compile-time value", 32),
-        ("TURBOPACK compile-time value", 48),
-        ("TURBOPACK compile-time value", 64),
-        ("TURBOPACK compile-time value", 96),
-        ("TURBOPACK compile-time value", 128),
-        ("TURBOPACK compile-time value", 256),
-        ("TURBOPACK compile-time value", 384)
-    ]),
-    "qualities": ("TURBOPACK compile-time value", [
-        ("TURBOPACK compile-time value", 75)
-    ]),
-    "path": ("TURBOPACK compile-time value", "/_next/image"),
-    "loader": ("TURBOPACK compile-time value", "default"),
-    "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
-    "unoptimized": ("TURBOPACK compile-time value", false),
-    "domains": ("TURBOPACK compile-time value", []),
-    "remotePatterns": ("TURBOPACK compile-time value", []),
-    "localPatterns": ("TURBOPACK compile-time value", [
-        ("TURBOPACK compile-time value", {
-            "pathname": ("TURBOPACK compile-time value", "**"),
-            "search": ("TURBOPACK compile-time value", "")
-        })
-    ])
-});
-if (typeof window === 'undefined') {
-    ;
-    globalThis.__NEXT_IMAGE_IMPORTED = true;
-}
-// See https://stackoverflow.com/q/39777833/266535 for why we use this ref
-// handler instead of the img's onLoad attribute.
-function handleLoading(img, placeholder, onLoadRef, onLoadingCompleteRef, setBlurComplete, unoptimized, sizesInput) {
-    const src = img?.src;
-    if (!img || img['data-loaded-src'] === src) {
-        return;
-    }
-    img['data-loaded-src'] = src;
-    const p = 'decode' in img ? img.decode() : Promise.resolve();
-    p.catch(()=>{}).then(()=>{
-        if (!img.parentElement || !img.isConnected) {
-            // Exit early in case of race condition:
-            // - onload() is called
-            // - decode() is called but incomplete
-            // - unmount is called
-            // - decode() completes
-            return;
-        }
-        if (placeholder !== 'empty') {
-            setBlurComplete(true);
-        }
-        if (onLoadRef?.current) {
-            // Since we don't have the SyntheticEvent here,
-            // we must create one with the same shape.
-            // See https://reactjs.org/docs/events.html
-            const event = new Event('load');
-            Object.defineProperty(event, 'target', {
-                writable: false,
-                value: img
-            });
-            let prevented = false;
-            let stopped = false;
-            onLoadRef.current({
-                ...event,
-                nativeEvent: event,
-                currentTarget: img,
-                target: img,
-                isDefaultPrevented: ()=>prevented,
-                isPropagationStopped: ()=>stopped,
-                persist: ()=>{},
-                preventDefault: ()=>{
-                    prevented = true;
-                    event.preventDefault();
-                },
-                stopPropagation: ()=>{
-                    stopped = true;
-                    event.stopPropagation();
-                }
-            });
-        }
-        if (onLoadingCompleteRef?.current) {
-            onLoadingCompleteRef.current(img);
-        }
-        if ("TURBOPACK compile-time truthy", 1) {
-            const origSrc = new URL(src, 'http://n').searchParams.get('url') || src;
-            if (img.getAttribute('data-nimg') === 'fill') {
-                if (!unoptimized && (!sizesInput || sizesInput === '100vw')) {
-                    let widthViewportRatio = img.getBoundingClientRect().width / window.innerWidth;
-                    if (widthViewportRatio < 0.6) {
-                        if (sizesInput === '100vw') {
-                            (0, _warnonce.warnOnce)(`Image with src "${origSrc}" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes`);
-                        } else {
-                            (0, _warnonce.warnOnce)(`Image with src "${origSrc}" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes`);
-                        }
-                    }
-                }
-                if (img.parentElement) {
-                    const { position } = window.getComputedStyle(img.parentElement);
-                    const valid = [
-                        'absolute',
-                        'fixed',
-                        'relative'
-                    ];
-                    if (!valid.includes(position)) {
-                        (0, _warnonce.warnOnce)(`Image with src "${origSrc}" has "fill" and parent element with invalid "position". Provided "${position}" should be one of ${valid.map(String).join(',')}.`);
-                    }
-                }
-                if (img.height === 0) {
-                    (0, _warnonce.warnOnce)(`Image with src "${origSrc}" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.`);
-                }
-            }
-            const heightModified = img.height.toString() !== img.getAttribute('height');
-            const widthModified = img.width.toString() !== img.getAttribute('width');
-            if (heightModified && !widthModified || !heightModified && widthModified) {
-                (0, _warnonce.warnOnce)(`Image with src "${origSrc}" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.`);
-            }
-        }
-    });
-}
-function getDynamicProps(fetchPriority) {
-    if (Boolean(_react.use)) {
-        // In React 19.0.0 or newer, we must use camelCase
-        // prop to avoid "Warning: Invalid DOM property".
-        // See https://github.com/facebook/react/pull/25927
-        return {
-            fetchPriority
-        };
-    }
-    // In React 18.2.0 or older, we must use lowercase prop
-    // to avoid "Warning: Invalid DOM property".
-    return {
-        fetchpriority: fetchPriority
-    };
-}
-const ImageElement = /*#__PURE__*/ (0, _react.forwardRef)(({ src, srcSet, sizes, height, width, decoding, className, style, fetchPriority, placeholder, loading, unoptimized, fill, onLoadRef, onLoadingCompleteRef, setBlurComplete, setShowAltText, sizesInput, onLoad, onError, ...rest }, forwardedRef)=>{
-    const ownRef = (0, _react.useCallback)((img)=>{
-        if (!img) {
-            return;
-        }
-        if (onError) {
-            // If the image has an error before react hydrates, then the error is lost.
-            // The workaround is to wait until the image is mounted which is after hydration,
-            // then we set the src again to trigger the error handler (if there was an error).
-            // eslint-disable-next-line no-self-assign
-            img.src = img.src;
-        }
-        if ("TURBOPACK compile-time truthy", 1) {
-            if (!src) {
-                console.error(`Image is missing required "src" property:`, img);
-            }
-            if (img.getAttribute('alt') === null) {
-                console.error(`Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.`);
-            }
-        }
-        if (img.complete) {
-            handleLoading(img, placeholder, onLoadRef, onLoadingCompleteRef, setBlurComplete, unoptimized, sizesInput);
-        }
-    }, [
-        src,
-        placeholder,
-        onLoadRef,
-        onLoadingCompleteRef,
-        setBlurComplete,
-        onError,
-        unoptimized,
-        sizesInput
-    ]);
-    const ref = (0, _usemergedref.useMergedRef)(forwardedRef, ownRef);
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)("img", {
-        ...rest,
-        ...getDynamicProps(fetchPriority),
-        // It's intended to keep `loading` before `src` because React updates
-        // props in order which causes Safari/Firefox to not lazy load properly.
-        // See https://github.com/facebook/react/issues/25883
-        loading: loading,
-        width: width,
-        height: height,
-        decoding: decoding,
-        "data-nimg": fill ? 'fill' : '1',
-        className: className,
-        style: style,
-        // It's intended to keep `src` the last attribute because React updates
-        // attributes in order. If we keep `src` the first one, Safari will
-        // immediately start to fetch `src`, before `sizes` and `srcSet` are even
-        // updated by React. That causes multiple unnecessary requests if `srcSet`
-        // and `sizes` are defined.
-        // This bug cannot be reproduced in Chrome or Firefox.
-        sizes: sizes,
-        srcSet: srcSet,
-        src: src,
-        ref: ref,
-        onLoad: (event)=>{
-            const img = event.currentTarget;
-            handleLoading(img, placeholder, onLoadRef, onLoadingCompleteRef, setBlurComplete, unoptimized, sizesInput);
-        },
-        onError: (event)=>{
-            // if the real image fails to load, this will ensure "alt" is visible
-            setShowAltText(true);
-            if (placeholder !== 'empty') {
-                // If the real image fails to load, this will still remove the placeholder.
-                setBlurComplete(true);
-            }
-            if (onError) {
-                onError(event);
-            }
-        }
-    });
-});
-function ImagePreload({ isAppRouter, imgAttributes }) {
-    const opts = {
-        as: 'image',
-        imageSrcSet: imgAttributes.srcSet,
-        imageSizes: imgAttributes.sizes,
-        crossOrigin: imgAttributes.crossOrigin,
-        referrerPolicy: imgAttributes.referrerPolicy,
-        ...getDynamicProps(imgAttributes.fetchPriority)
-    };
-    if (isAppRouter && _reactdom.default.preload) {
-        _reactdom.default.preload(imgAttributes.src, opts);
-        return null;
-    }
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_head.default, {
-        children: /*#__PURE__*/ (0, _jsxruntime.jsx)("link", {
-            rel: "preload",
-            // Note how we omit the `href` attribute, as it would only be relevant
-            // for browsers that do not support `imagesrcset`, and in those cases
-            // it would cause the incorrect image to be preloaded.
-            //
-            // https://html.spec.whatwg.org/multipage/semantics.html#attr-link-imagesrcset
-            href: imgAttributes.srcSet ? undefined : imgAttributes.src,
-            ...opts
-        }, '__nimg-' + imgAttributes.src + imgAttributes.srcSet + imgAttributes.sizes)
-    });
-}
-const Image = /*#__PURE__*/ (0, _react.forwardRef)((props, forwardedRef)=>{
-    const pagesRouter = (0, _react.useContext)(_routercontextsharedruntime.RouterContext);
-    // We're in the app directory if there is no pages router.
-    const isAppRouter = !pagesRouter;
-    const configContext = (0, _react.useContext)(_imageconfigcontextsharedruntime.ImageConfigContext);
-    const config = (0, _react.useMemo)(()=>{
-        const c = configEnv || configContext || _imageconfig.imageConfigDefault;
-        const allSizes = [
-            ...c.deviceSizes,
-            ...c.imageSizes
-        ].sort((a, b)=>a - b);
-        const deviceSizes = c.deviceSizes.sort((a, b)=>a - b);
-        const qualities = c.qualities?.sort((a, b)=>a - b);
-        return {
-            ...c,
-            allSizes,
-            deviceSizes,
-            qualities,
-            // During the SSR, configEnv (__NEXT_IMAGE_OPTS) does not include
-            // security sensitive configs like `localPatterns`, which is needed
-            // during the server render to ensure it's validated. Therefore use
-            // configContext, which holds the config from the server for validation.
-            localPatterns: typeof window === 'undefined' ? configContext?.localPatterns : c.localPatterns
-        };
-    }, [
-        configContext
-    ]);
-    const { onLoad, onLoadingComplete } = props;
-    const onLoadRef = (0, _react.useRef)(onLoad);
-    (0, _react.useEffect)(()=>{
-        onLoadRef.current = onLoad;
-    }, [
-        onLoad
-    ]);
-    const onLoadingCompleteRef = (0, _react.useRef)(onLoadingComplete);
-    (0, _react.useEffect)(()=>{
-        onLoadingCompleteRef.current = onLoadingComplete;
-    }, [
-        onLoadingComplete
-    ]);
-    const [blurComplete, setBlurComplete] = (0, _react.useState)(false);
-    const [showAltText, setShowAltText] = (0, _react.useState)(false);
-    const { props: imgAttributes, meta: imgMeta } = (0, _getimgprops.getImgProps)(props, {
+const _getimgprops = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/get-img-props.js [app-rsc] (ecmascript)");
+const _imagecomponent = __turbopack_context__.r("[project]/node_modules/next/dist/client/image-component.js [app-rsc] (ecmascript)");
+const _imageloader = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-loader.js [app-rsc] (ecmascript)"));
+function getImageProps(imgProps) {
+    const { props } = (0, _getimgprops.getImgProps)(imgProps, {
         defaultLoader: _imageloader.default,
-        imgConf: config,
-        blurComplete,
-        showAltText
+        // This is replaced by webpack define plugin
+        imgConf: ("TURBOPACK compile-time value", {
+            "deviceSizes": ("TURBOPACK compile-time value", [
+                ("TURBOPACK compile-time value", 640),
+                ("TURBOPACK compile-time value", 750),
+                ("TURBOPACK compile-time value", 828),
+                ("TURBOPACK compile-time value", 1080),
+                ("TURBOPACK compile-time value", 1200),
+                ("TURBOPACK compile-time value", 1920),
+                ("TURBOPACK compile-time value", 2048),
+                ("TURBOPACK compile-time value", 3840)
+            ]),
+            "imageSizes": ("TURBOPACK compile-time value", [
+                ("TURBOPACK compile-time value", 32),
+                ("TURBOPACK compile-time value", 48),
+                ("TURBOPACK compile-time value", 64),
+                ("TURBOPACK compile-time value", 96),
+                ("TURBOPACK compile-time value", 128),
+                ("TURBOPACK compile-time value", 256),
+                ("TURBOPACK compile-time value", 384)
+            ]),
+            "qualities": ("TURBOPACK compile-time value", [
+                ("TURBOPACK compile-time value", 75)
+            ]),
+            "path": ("TURBOPACK compile-time value", "/_next/image"),
+            "loader": ("TURBOPACK compile-time value", "default"),
+            "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
+            "unoptimized": ("TURBOPACK compile-time value", false),
+            "domains": ("TURBOPACK compile-time value", []),
+            "remotePatterns": ("TURBOPACK compile-time value", []),
+            "localPatterns": ("TURBOPACK compile-time value", [
+                ("TURBOPACK compile-time value", {
+                    "pathname": ("TURBOPACK compile-time value", "**"),
+                    "search": ("TURBOPACK compile-time value", "")
+                })
+            ])
+        })
     });
-    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_jsxruntime.Fragment, {
-        children: [
-            /*#__PURE__*/ (0, _jsxruntime.jsx)(ImageElement, {
-                ...imgAttributes,
-                unoptimized: imgMeta.unoptimized,
-                placeholder: imgMeta.placeholder,
-                fill: imgMeta.fill,
-                onLoadRef: onLoadRef,
-                onLoadingCompleteRef: onLoadingCompleteRef,
-                setBlurComplete: setBlurComplete,
-                setShowAltText: setShowAltText,
-                sizesInput: props.sizes,
-                ref: forwardedRef
-            }),
-            imgMeta.preload ? /*#__PURE__*/ (0, _jsxruntime.jsx)(ImagePreload, {
-                isAppRouter: isAppRouter,
-                imgAttributes: imgAttributes
-            }) : null
-        ]
-    });
-});
-if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {
-    Object.defineProperty(exports.default, '__esModule', {
-        value: true
-    });
-    Object.assign(exports.default, exports);
-    module.exports = exports.default;
-} //# sourceMappingURL=image-component.js.map
-}),
-"[project]/node_modules/next/dist/shared/lib/router/utils/querystring.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-0 && (module.exports = {
-    assign: null,
-    searchParamsToUrlQuery: null,
-    urlQueryToSearchParams: null
-});
-function _export(target, all) {
-    for(var name in all)Object.defineProperty(target, name, {
-        enumerable: true,
-        get: all[name]
-    });
-}
-_export(exports, {
-    assign: function() {
-        return assign;
-    },
-    searchParamsToUrlQuery: function() {
-        return searchParamsToUrlQuery;
-    },
-    urlQueryToSearchParams: function() {
-        return urlQueryToSearchParams;
-    }
-});
-function searchParamsToUrlQuery(searchParams) {
-    const query = {};
-    for (const [key, value] of searchParams.entries()){
-        const existing = query[key];
-        if (typeof existing === 'undefined') {
-            query[key] = value;
-        } else if (Array.isArray(existing)) {
-            existing.push(value);
-        } else {
-            query[key] = [
-                existing,
-                value
-            ];
+    // Normally we don't care about undefined props because we pass to JSX,
+    // but this exported function could be used by the end user for anything
+    // so we delete undefined props to clean it up a little.
+    for (const [key, value] of Object.entries(props)){
+        if (value === undefined) {
+            delete props[key];
         }
     }
-    return query;
-}
-function stringifyUrlQueryParam(param) {
-    if (typeof param === 'string') {
-        return param;
-    }
-    if (typeof param === 'number' && !isNaN(param) || typeof param === 'boolean') {
-        return String(param);
-    } else {
-        return '';
-    }
-}
-function urlQueryToSearchParams(query) {
-    const searchParams = new URLSearchParams();
-    for (const [key, value] of Object.entries(query)){
-        if (Array.isArray(value)) {
-            for (const item of value){
-                searchParams.append(key, stringifyUrlQueryParam(item));
-            }
-        } else {
-            searchParams.set(key, stringifyUrlQueryParam(value));
-        }
-    }
-    return searchParams;
-}
-function assign(target, ...searchParamsList) {
-    for (const searchParams of searchParamsList){
-        for (const key of searchParams.keys()){
-            target.delete(key);
-        }
-        for (const [key, value] of searchParams.entries()){
-            target.append(key, value);
-        }
-    }
-    return target;
-} //# sourceMappingURL=querystring.js.map
-}),
-"[project]/node_modules/next/dist/shared/lib/router/utils/format-url.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
-"use strict";
-
-// Format function modified from nodejs
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-0 && (module.exports = {
-    formatUrl: null,
-    formatWithValidation: null,
-    urlObjectKeys: null
-});
-function _export(target, all) {
-    for(var name in all)Object.defineProperty(target, name, {
-        enumerable: true,
-        get: all[name]
-    });
-}
-_export(exports, {
-    formatUrl: function() {
-        return formatUrl;
-    },
-    formatWithValidation: function() {
-        return formatWithValidation;
-    },
-    urlObjectKeys: function() {
-        return urlObjectKeys;
-    }
-});
-const _interop_require_wildcard = (()=>{
-    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
-const _querystring = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/router/utils/querystring.js [app-client] (ecmascript)"));
-const slashedProtocols = /https?|ftp|gopher|file/;
-function formatUrl(urlObj) {
-    let { auth, hostname } = urlObj;
-    let protocol = urlObj.protocol || '';
-    let pathname = urlObj.pathname || '';
-    let hash = urlObj.hash || '';
-    let query = urlObj.query || '';
-    let host = false;
-    auth = auth ? encodeURIComponent(auth).replace(/%3A/i, ':') + '@' : '';
-    if (urlObj.host) {
-        host = auth + urlObj.host;
-    } else if (hostname) {
-        host = auth + (~hostname.indexOf(':') ? `[${hostname}]` : hostname);
-        if (urlObj.port) {
-            host += ':' + urlObj.port;
-        }
-    }
-    if (query && typeof query === 'object') {
-        query = String(_querystring.urlQueryToSearchParams(query));
-    }
-    let search = urlObj.search || query && `?${query}` || '';
-    if (protocol && !protocol.endsWith(':')) protocol += ':';
-    if (urlObj.slashes || (!protocol || slashedProtocols.test(protocol)) && host !== false) {
-        host = '//' + (host || '');
-        if (pathname && pathname[0] !== '/') pathname = '/' + pathname;
-    } else if (!host) {
-        host = '';
-    }
-    if (hash && hash[0] !== '#') hash = '#' + hash;
-    if (search && search[0] !== '?') search = '?' + search;
-    pathname = pathname.replace(/[?#]/g, encodeURIComponent);
-    search = search.replace('#', '%23');
-    return `${protocol}${host}${pathname}${search}${hash}`;
-}
-const urlObjectKeys = [
-    'auth',
-    'hash',
-    'host',
-    'hostname',
-    'href',
-    'path',
-    'pathname',
-    'port',
-    'protocol',
-    'query',
-    'search',
-    'slashes'
-];
-function formatWithValidation(url) {
-    if ("TURBOPACK compile-time truthy", 1) {
-        if (url !== null && typeof url === 'object') {
-            Object.keys(url).forEach((key)=>{
-                if (!urlObjectKeys.includes(key)) {
-                    console.warn(`Unknown key passed via urlObject into url.format: ${key}`);
-                }
-            });
-        }
-    }
-    return formatUrl(url);
-} //# sourceMappingURL=format-url.js.map
-}),
-"[project]/node_modules/next/dist/shared/lib/utils.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
-"use strict";
-
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-0 && (module.exports = {
-    DecodeError: null,
-    MiddlewareNotFoundError: null,
-    MissingStaticPage: null,
-    NormalizeError: null,
-    PageNotFoundError: null,
-    SP: null,
-    ST: null,
-    WEB_VITALS: null,
-    execOnce: null,
-    getDisplayName: null,
-    getLocationOrigin: null,
-    getURL: null,
-    isAbsoluteUrl: null,
-    isResSent: null,
-    loadGetInitialProps: null,
-    normalizeRepeatedSlashes: null,
-    stringifyError: null
-});
-function _export(target, all) {
-    for(var name in all)Object.defineProperty(target, name, {
-        enumerable: true,
-        get: all[name]
-    });
-}
-_export(exports, {
-    DecodeError: function() {
-        return DecodeError;
-    },
-    MiddlewareNotFoundError: function() {
-        return MiddlewareNotFoundError;
-    },
-    MissingStaticPage: function() {
-        return MissingStaticPage;
-    },
-    NormalizeError: function() {
-        return NormalizeError;
-    },
-    PageNotFoundError: function() {
-        return PageNotFoundError;
-    },
-    SP: function() {
-        return SP;
-    },
-    ST: function() {
-        return ST;
-    },
-    WEB_VITALS: function() {
-        return WEB_VITALS;
-    },
-    execOnce: function() {
-        return execOnce;
-    },
-    getDisplayName: function() {
-        return getDisplayName;
-    },
-    getLocationOrigin: function() {
-        return getLocationOrigin;
-    },
-    getURL: function() {
-        return getURL;
-    },
-    isAbsoluteUrl: function() {
-        return isAbsoluteUrl;
-    },
-    isResSent: function() {
-        return isResSent;
-    },
-    loadGetInitialProps: function() {
-        return loadGetInitialProps;
-    },
-    normalizeRepeatedSlashes: function() {
-        return normalizeRepeatedSlashes;
-    },
-    stringifyError: function() {
-        return stringifyError;
-    }
-});
-const WEB_VITALS = [
-    'CLS',
-    'FCP',
-    'FID',
-    'INP',
-    'LCP',
-    'TTFB'
-];
-function execOnce(fn) {
-    let used = false;
-    let result;
-    return (...args)=>{
-        if (!used) {
-            used = true;
-            result = fn(...args);
-        }
-        return result;
+    return {
+        props
     };
 }
-// Scheme: https://tools.ietf.org/html/rfc3986#section-3.1
-// Absolute URL: https://tools.ietf.org/html/rfc3986#section-4.3
-const ABSOLUTE_URL_REGEX = /^[a-zA-Z][a-zA-Z\d+\-.]*?:/;
-const isAbsoluteUrl = (url)=>ABSOLUTE_URL_REGEX.test(url);
-function getLocationOrigin() {
-    const { protocol, hostname, port } = window.location;
-    return `${protocol}//${hostname}${port ? ':' + port : ''}`;
-}
-function getURL() {
-    const { href } = window.location;
-    const origin = getLocationOrigin();
-    return href.substring(origin.length);
-}
-function getDisplayName(Component) {
-    return typeof Component === 'string' ? Component : Component.displayName || Component.name || 'Unknown';
-}
-function isResSent(res) {
-    return res.finished || res.headersSent;
-}
-function normalizeRepeatedSlashes(url) {
-    const urlParts = url.split('?');
-    const urlNoQuery = urlParts[0];
-    return urlNoQuery // first we replace any non-encoded backslashes with forward
-    // then normalize repeated forward slashes
-    .replace(/\\/g, '/').replace(/\/\/+/g, '/') + (urlParts[1] ? `?${urlParts.slice(1).join('?')}` : '');
-}
-async function loadGetInitialProps(App, ctx) {
-    if ("TURBOPACK compile-time truthy", 1) {
-        if (App.prototype?.getInitialProps) {
-            const message = `"${getDisplayName(App)}.getInitialProps()" is defined as an instance method - visit https://nextjs.org/docs/messages/get-initial-props-as-an-instance-method for more information.`;
-            throw Object.defineProperty(new Error(message), "__NEXT_ERROR_CODE", {
-                value: "E394",
-                enumerable: false,
-                configurable: true
-            });
-        }
-    }
-    // when called from _app `ctx` is nested in `ctx`
-    const res = ctx.res || ctx.ctx && ctx.ctx.res;
-    if (!App.getInitialProps) {
-        if (ctx.ctx && ctx.Component) {
-            // @ts-ignore pageProps default
-            return {
-                pageProps: await loadGetInitialProps(ctx.Component, ctx.ctx)
-            };
-        }
-        return {};
-    }
-    const props = await App.getInitialProps(ctx);
-    if (res && isResSent(res)) {
-        return props;
-    }
-    if (!props) {
-        const message = `"${getDisplayName(App)}.getInitialProps()" should resolve to an object. But found "${props}" instead.`;
-        throw Object.defineProperty(new Error(message), "__NEXT_ERROR_CODE", {
-            value: "E394",
-            enumerable: false,
-            configurable: true
-        });
-    }
-    if ("TURBOPACK compile-time truthy", 1) {
-        if (Object.keys(props).length === 0 && !ctx.ctx) {
-            console.warn(`${getDisplayName(App)} returned an empty object from \`getInitialProps\`. This de-optimizes and prevents automatic static optimization. https://nextjs.org/docs/messages/empty-object-getInitialProps`);
-        }
-    }
-    return props;
-}
-const SP = typeof performance !== 'undefined';
-const ST = SP && [
-    'mark',
-    'measure',
-    'getEntriesByName'
-].every((method)=>typeof performance[method] === 'function');
-class DecodeError extends Error {
-}
-class NormalizeError extends Error {
-}
-class PageNotFoundError extends Error {
-    constructor(page){
-        super();
-        this.code = 'ENOENT';
-        this.name = 'PageNotFoundError';
-        this.message = `Cannot find module for page: ${page}`;
-    }
-}
-class MissingStaticPage extends Error {
-    constructor(page, message){
-        super();
-        this.message = `Failed to load static file for page: ${page} ${message}`;
-    }
-}
-class MiddlewareNotFoundError extends Error {
-    constructor(){
-        super();
-        this.code = 'ENOENT';
-        this.message = `Cannot find the middleware module`;
-    }
-}
-function stringifyError(error) {
-    return JSON.stringify({
-        message: error.message,
-        stack: error.stack
-    });
-} //# sourceMappingURL=utils.js.map
+const _default = _imagecomponent.Image; //# sourceMappingURL=image-external.js.map
 }),
-"[project]/node_modules/next/dist/shared/lib/router/utils/is-local-url.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/image.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/image-external.js [app-rsc] (ecmascript)");
+}),
+"[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__, module, exports) => {
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+const { createClientModuleProxy } = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+__turbopack_context__.n(createClientModuleProxy("[project]/node_modules/next/dist/client/app-dir/link.js <module evaluation>"));
+}),
+"[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (client reference proxy)", ((__turbopack_context__, module, exports) => {
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+const { createClientModuleProxy } = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+__turbopack_context__.n(createClientModuleProxy("[project]/node_modules/next/dist/client/app-dir/link.js"));
+}),
+"[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "isLocalURL", {
-    enumerable: true,
-    get: function() {
-        return isLocalURL;
-    }
-});
-const _utils = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils.js [app-client] (ecmascript)");
-const _hasbasepath = __turbopack_context__.r("[project]/node_modules/next/dist/client/has-base-path.js [app-client] (ecmascript)");
-function isLocalURL(url) {
-    // prevent a hydration mismatch on href for url with anchor refs
-    if (!(0, _utils.isAbsoluteUrl)(url)) return true;
-    try {
-        // absolute urls can be local if they are on the same origin
-        const locationOrigin = (0, _utils.getLocationOrigin)();
-        const resolved = new URL(url, locationOrigin);
-        return resolved.origin === locationOrigin && (0, _hasbasepath.hasBasePath)(resolved.pathname);
-    } catch (_) {
-        return false;
-    }
-} //# sourceMappingURL=is-local-url.js.map
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
 }),
-"[project]/node_modules/next/dist/shared/lib/utils/error-once.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "errorOnce", {
-    enumerable: true,
-    get: function() {
-        return errorOnce;
-    }
-});
-let errorOnce = (_)=>{};
-if ("TURBOPACK compile-time truthy", 1) {
-    const errors = new Set();
-    errorOnce = (msg)=>{
-        if (!errors.has(msg)) {
-            console.error(msg);
-        }
-        errors.add(msg);
-    };
-} //# sourceMappingURL=error-once.js.map
-}),
-"[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
-"use strict";
-
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-'use client';
-"use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
@@ -3702,20 +2768,11 @@ function _export(target, all) {
     });
 }
 _export(exports, {
-    /**
- * A React component that extends the HTML `<a>` element to provide
- * [prefetching](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#2-prefetching)
- * and client-side navigation. This is the primary way to navigate between routes in Next.js.
- *
- * @remarks
- * - Prefetching is only enabled in production.
- *
- * @see https://nextjs.org/docs/app/api-reference/components/link
- */ default: function() {
+    default: function() {
         return LinkComponent;
     },
     useLinkStatus: function() {
-        return useLinkStatus;
+        return _link.useLinkStatus;
     }
 });
 const _interop_require_wildcard = (()=>{
@@ -3723,368 +2780,22 @@ const _interop_require_wildcard = (()=>{
     e.code = 'MODULE_NOT_FOUND';
     throw e;
 })();
-const _jsxruntime = __turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
-const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
-const _formaturl = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/router/utils/format-url.js [app-client] (ecmascript)");
-const _approutercontextsharedruntime = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js [app-client] (ecmascript)");
-const _usemergedref = __turbopack_context__.r("[project]/node_modules/next/dist/client/use-merged-ref.js [app-client] (ecmascript)");
-const _utils = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils.js [app-client] (ecmascript)");
-const _addbasepath = __turbopack_context__.r("[project]/node_modules/next/dist/client/add-base-path.js [app-client] (ecmascript)");
-const _warnonce = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [app-client] (ecmascript)");
-const _links = __turbopack_context__.r("[project]/node_modules/next/dist/client/components/links.js [app-client] (ecmascript)");
-const _islocalurl = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/router/utils/is-local-url.js [app-client] (ecmascript)");
-const _segmentcache = __turbopack_context__.r("[project]/node_modules/next/dist/client/components/segment-cache.js [app-client] (ecmascript)");
-const _erroronce = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/utils/error-once.js [app-client] (ecmascript)");
-function isModifiedEvent(event) {
-    const eventTarget = event.currentTarget;
-    const target = eventTarget.getAttribute('target');
-    return target && target !== '_self' || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || // triggers resource download
-    event.nativeEvent && event.nativeEvent.which === 2;
-}
-function linkClicked(e, href, as, linkInstanceRef, replace, scroll, onNavigate) {
-    if (typeof window !== 'undefined') {
-        const { nodeName } = e.currentTarget;
-        // anchors inside an svg have a lowercase nodeName
-        const isAnchorNodeName = nodeName.toUpperCase() === 'A';
-        if (isAnchorNodeName && isModifiedEvent(e) || e.currentTarget.hasAttribute('download')) {
-            // ignore click for browser’s default behavior
-            return;
-        }
-        if (!(0, _islocalurl.isLocalURL)(href)) {
-            if (replace) {
-                // browser default behavior does not replace the history state
-                // so we need to do it manually
-                e.preventDefault();
-                location.replace(href);
-            }
-            // ignore click for browser’s default behavior
-            return;
-        }
-        e.preventDefault();
-        if (onNavigate) {
-            let isDefaultPrevented = false;
-            onNavigate({
-                preventDefault: ()=>{
-                    isDefaultPrevented = true;
-                }
-            });
-            if (isDefaultPrevented) {
-                return;
-            }
-        }
-        const { dispatchNavigateAction } = __turbopack_context__.r("[project]/node_modules/next/dist/client/components/app-router-instance.js [app-client] (ecmascript)");
-        _react.default.startTransition(()=>{
-            dispatchNavigateAction(as || href, replace ? 'replace' : 'push', scroll ?? true, linkInstanceRef.current);
-        });
-    }
-}
-function formatStringOrUrl(urlObjOrString) {
-    if (typeof urlObjOrString === 'string') {
-        return urlObjOrString;
-    }
-    return (0, _formaturl.formatUrl)(urlObjOrString);
-}
+const _jsxruntime = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-runtime.js [app-rsc] (ecmascript)");
+const _link = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)"));
 function LinkComponent(props) {
-    const [linkStatus, setOptimisticLinkStatus] = (0, _react.useOptimistic)(_links.IDLE_LINK_STATUS);
-    let children;
-    const linkInstanceRef = (0, _react.useRef)(null);
-    const { href: hrefProp, as: asProp, children: childrenProp, prefetch: prefetchProp = null, passHref, replace, shallow, scroll, onClick, onMouseEnter: onMouseEnterProp, onTouchStart: onTouchStartProp, legacyBehavior = false, onNavigate, ref: forwardedRef, unstable_dynamicOnHover, ...restProps } = props;
-    children = childrenProp;
-    if (legacyBehavior && (typeof children === 'string' || typeof children === 'number')) {
-        children = /*#__PURE__*/ (0, _jsxruntime.jsx)("a", {
-            children: children
-        });
-    }
-    const router = _react.default.useContext(_approutercontextsharedruntime.AppRouterContext);
-    const prefetchEnabled = prefetchProp !== false;
-    const fetchStrategy = prefetchProp !== false ? getFetchStrategyFromPrefetchProp(prefetchProp) : _segmentcache.FetchStrategy.PPR;
-    if ("TURBOPACK compile-time truthy", 1) {
-        function createPropError(args) {
-            return Object.defineProperty(new Error(`Failed prop type: The prop \`${args.key}\` expects a ${args.expected} in \`<Link>\`, but got \`${args.actual}\` instead.` + (typeof window !== 'undefined' ? "\nOpen your browser's console to view the Component stack trace." : '')), "__NEXT_ERROR_CODE", {
-                value: "E319",
-                enumerable: false,
-                configurable: true
-            });
-        }
-        // TypeScript trick for type-guarding:
-        const requiredPropsGuard = {
-            href: true
-        };
-        const requiredProps = Object.keys(requiredPropsGuard);
-        requiredProps.forEach((key)=>{
-            if (key === 'href') {
-                if (props[key] == null || typeof props[key] !== 'string' && typeof props[key] !== 'object') {
-                    throw createPropError({
-                        key,
-                        expected: '`string` or `object`',
-                        actual: props[key] === null ? 'null' : typeof props[key]
-                    });
-                }
-            } else {
-                // TypeScript trick for type-guarding:
-                const _ = key;
-            }
-        });
-        // TypeScript trick for type-guarding:
-        const optionalPropsGuard = {
-            as: true,
-            replace: true,
-            scroll: true,
-            shallow: true,
-            passHref: true,
-            prefetch: true,
-            unstable_dynamicOnHover: true,
-            onClick: true,
-            onMouseEnter: true,
-            onTouchStart: true,
-            legacyBehavior: true,
-            onNavigate: true
-        };
-        const optionalProps = Object.keys(optionalPropsGuard);
-        optionalProps.forEach((key)=>{
-            const valType = typeof props[key];
-            if (key === 'as') {
-                if (props[key] && valType !== 'string' && valType !== 'object') {
-                    throw createPropError({
-                        key,
-                        expected: '`string` or `object`',
-                        actual: valType
-                    });
-                }
-            } else if (key === 'onClick' || key === 'onMouseEnter' || key === 'onTouchStart' || key === 'onNavigate') {
-                if (props[key] && valType !== 'function') {
-                    throw createPropError({
-                        key,
-                        expected: '`function`',
-                        actual: valType
-                    });
-                }
-            } else if (key === 'replace' || key === 'scroll' || key === 'shallow' || key === 'passHref' || key === 'legacyBehavior' || key === 'unstable_dynamicOnHover') {
-                if (props[key] != null && valType !== 'boolean') {
-                    throw createPropError({
-                        key,
-                        expected: '`boolean`',
-                        actual: valType
-                    });
-                }
-            } else if (key === 'prefetch') {
-                if (props[key] != null && valType !== 'boolean' && props[key] !== 'auto' && props[key] !== 'unstable_forceStale') {
-                    throw createPropError({
-                        key,
-                        expected: '`boolean | "auto" | "unstable_forceStale"`',
-                        actual: valType
-                    });
-                }
-            } else {
-                // TypeScript trick for type-guarding:
-                const _ = key;
-            }
-        });
-    }
-    if ("TURBOPACK compile-time truthy", 1) {
-        if (props.locale) {
-            (0, _warnonce.warnOnce)('The `locale` prop is not supported in `next/link` while using the `app` router. Read more about app router internalization: https://nextjs.org/docs/app/building-your-application/routing/internationalization');
-        }
-        if (!asProp) {
-            let href;
-            if (typeof hrefProp === 'string') {
-                href = hrefProp;
-            } else if (typeof hrefProp === 'object' && typeof hrefProp.pathname === 'string') {
-                href = hrefProp.pathname;
-            }
-            if (href) {
-                const hasDynamicSegment = href.split('/').some((segment)=>segment.startsWith('[') && segment.endsWith(']'));
-                if (hasDynamicSegment) {
-                    throw Object.defineProperty(new Error(`Dynamic href \`${href}\` found in <Link> while using the \`/app\` router, this is not supported. Read more: https://nextjs.org/docs/messages/app-dir-dynamic-href`), "__NEXT_ERROR_CODE", {
-                        value: "E267",
-                        enumerable: false,
-                        configurable: true
-                    });
-                }
-            }
+    const isLegacyBehavior = props.legacyBehavior;
+    const childIsHostComponent = typeof props.children === 'string' || typeof props.children === 'number' || typeof props.children?.type === 'string';
+    const childIsClientComponent = props.children?.type?.$$typeof === Symbol.for('react.client.reference');
+    if (isLegacyBehavior && !childIsHostComponent && !childIsClientComponent) {
+        if (props.children?.type?.$$typeof === Symbol.for('react.lazy')) {
+            console.error(`Using a Lazy Component as a direct child of \`<Link legacyBehavior>\` from a Server Component is not supported. If you need legacyBehavior, wrap your Lazy Component in a Client Component that renders the Link's \`<a>\` tag.`);
+        } else {
+            console.error(`Using a Server Component as a direct child of \`<Link legacyBehavior>\` is not supported. If you need legacyBehavior, wrap your Server Component in a Client Component that renders the Link's \`<a>\` tag.`);
         }
     }
-    const { href, as } = _react.default.useMemo({
-        "LinkComponent.useMemo": ()=>{
-            const resolvedHref = formatStringOrUrl(hrefProp);
-            return {
-                href: resolvedHref,
-                as: asProp ? formatStringOrUrl(asProp) : resolvedHref
-            };
-        }
-    }["LinkComponent.useMemo"], [
-        hrefProp,
-        asProp
-    ]);
-    // This will return the first child, if multiple are provided it will throw an error
-    let child;
-    if (legacyBehavior) {
-        if (children?.$$typeof === Symbol.for('react.lazy')) {
-            throw Object.defineProperty(new Error(`\`<Link legacyBehavior>\` received a direct child that is either a Server Component, or JSX that was loaded with React.lazy(). This is not supported. Either remove legacyBehavior, or make the direct child a Client Component that renders the Link's \`<a>\` tag.`), "__NEXT_ERROR_CODE", {
-                value: "E863",
-                enumerable: false,
-                configurable: true
-            });
-        }
-        if ("TURBOPACK compile-time truthy", 1) {
-            if (onClick) {
-                console.warn(`"onClick" was passed to <Link> with \`href\` of \`${hrefProp}\` but "legacyBehavior" was set. The legacy behavior requires onClick be set on the child of next/link`);
-            }
-            if (onMouseEnterProp) {
-                console.warn(`"onMouseEnter" was passed to <Link> with \`href\` of \`${hrefProp}\` but "legacyBehavior" was set. The legacy behavior requires onMouseEnter be set on the child of next/link`);
-            }
-            try {
-                child = _react.default.Children.only(children);
-            } catch (err) {
-                if (!children) {
-                    throw Object.defineProperty(new Error(`No children were passed to <Link> with \`href\` of \`${hrefProp}\` but one child is required https://nextjs.org/docs/messages/link-no-children`), "__NEXT_ERROR_CODE", {
-                        value: "E320",
-                        enumerable: false,
-                        configurable: true
-                    });
-                }
-                throw Object.defineProperty(new Error(`Multiple children were passed to <Link> with \`href\` of \`${hrefProp}\` but only one child is supported https://nextjs.org/docs/messages/link-multiple-children` + (typeof window !== 'undefined' ? " \nOpen your browser's console to view the Component stack trace." : '')), "__NEXT_ERROR_CODE", {
-                    value: "E266",
-                    enumerable: false,
-                    configurable: true
-                });
-            }
-        } else //TURBOPACK unreachable
-        ;
-    } else {
-        if ("TURBOPACK compile-time truthy", 1) {
-            if (children?.type === 'a') {
-                throw Object.defineProperty(new Error('Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.\nLearn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor'), "__NEXT_ERROR_CODE", {
-                    value: "E209",
-                    enumerable: false,
-                    configurable: true
-                });
-            }
-        }
-    }
-    const childRef = legacyBehavior ? child && typeof child === 'object' && child.ref : forwardedRef;
-    // Use a callback ref to attach an IntersectionObserver to the anchor tag on
-    // mount. In the future we will also use this to keep track of all the
-    // currently mounted <Link> instances, e.g. so we can re-prefetch them after
-    // a revalidation or refresh.
-    const observeLinkVisibilityOnMount = _react.default.useCallback({
-        "LinkComponent.useCallback[observeLinkVisibilityOnMount]": (element)=>{
-            if (router !== null) {
-                linkInstanceRef.current = (0, _links.mountLinkInstance)(element, href, router, fetchStrategy, prefetchEnabled, setOptimisticLinkStatus);
-            }
-            return ({
-                "LinkComponent.useCallback[observeLinkVisibilityOnMount]": ()=>{
-                    if (linkInstanceRef.current) {
-                        (0, _links.unmountLinkForCurrentNavigation)(linkInstanceRef.current);
-                        linkInstanceRef.current = null;
-                    }
-                    (0, _links.unmountPrefetchableInstance)(element);
-                }
-            })["LinkComponent.useCallback[observeLinkVisibilityOnMount]"];
-        }
-    }["LinkComponent.useCallback[observeLinkVisibilityOnMount]"], [
-        prefetchEnabled,
-        href,
-        router,
-        fetchStrategy,
-        setOptimisticLinkStatus
-    ]);
-    const mergedRef = (0, _usemergedref.useMergedRef)(observeLinkVisibilityOnMount, childRef);
-    const childProps = {
-        ref: mergedRef,
-        onClick (e) {
-            if ("TURBOPACK compile-time truthy", 1) {
-                if (!e) {
-                    throw Object.defineProperty(new Error(`Component rendered inside next/link has to pass click event to "onClick" prop.`), "__NEXT_ERROR_CODE", {
-                        value: "E312",
-                        enumerable: false,
-                        configurable: true
-                    });
-                }
-            }
-            if (!legacyBehavior && typeof onClick === 'function') {
-                onClick(e);
-            }
-            if (legacyBehavior && child.props && typeof child.props.onClick === 'function') {
-                child.props.onClick(e);
-            }
-            if (!router) {
-                return;
-            }
-            if (e.defaultPrevented) {
-                return;
-            }
-            linkClicked(e, href, as, linkInstanceRef, replace, scroll, onNavigate);
-        },
-        onMouseEnter (e) {
-            if (!legacyBehavior && typeof onMouseEnterProp === 'function') {
-                onMouseEnterProp(e);
-            }
-            if (legacyBehavior && child.props && typeof child.props.onMouseEnter === 'function') {
-                child.props.onMouseEnter(e);
-            }
-            if (!router) {
-                return;
-            }
-            if ("TURBOPACK compile-time truthy", 1) {
-                return;
-            }
-            //TURBOPACK unreachable
-            ;
-            const upgradeToDynamicPrefetch = undefined;
-        },
-        onTouchStart: ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : function onTouchStart(e) {
-            if (!legacyBehavior && typeof onTouchStartProp === 'function') {
-                onTouchStartProp(e);
-            }
-            if (legacyBehavior && child.props && typeof child.props.onTouchStart === 'function') {
-                child.props.onTouchStart(e);
-            }
-            if (!router) {
-                return;
-            }
-            if (!prefetchEnabled) {
-                return;
-            }
-            const upgradeToDynamicPrefetch = unstable_dynamicOnHover === true;
-            (0, _links.onNavigationIntent)(e.currentTarget, upgradeToDynamicPrefetch);
-        }
-    };
-    // If the url is absolute, we can bypass the logic to prepend the basePath.
-    if ((0, _utils.isAbsoluteUrl)(as)) {
-        childProps.href = as;
-    } else if (!legacyBehavior || passHref || child.type === 'a' && !('href' in child.props)) {
-        childProps.href = (0, _addbasepath.addBasePath)(as);
-    }
-    let link;
-    if (legacyBehavior) {
-        if ("TURBOPACK compile-time truthy", 1) {
-            (0, _erroronce.errorOnce)('`legacyBehavior` is deprecated and will be removed in a future ' + 'release. A codemod is available to upgrade your components:\n\n' + 'npx @next/codemod@latest new-link .\n\n' + 'Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components');
-        }
-        link = /*#__PURE__*/ _react.default.cloneElement(child, childProps);
-    } else {
-        link = /*#__PURE__*/ (0, _jsxruntime.jsx)("a", {
-            ...restProps,
-            ...childProps,
-            children: children
-        });
-    }
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(LinkStatusContext.Provider, {
-        value: linkStatus,
-        children: link
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_link.default, {
+        ...props
     });
-}
-const LinkStatusContext = /*#__PURE__*/ (0, _react.createContext)(_links.IDLE_LINK_STATUS);
-const useLinkStatus = ()=>{
-    return (0, _react.useContext)(LinkStatusContext);
-};
-function getFetchStrategyFromPrefetchProp(prefetchProp) {
-    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-    ;
-    else {
-        return prefetchProp === null || prefetchProp === 'auto' ? _segmentcache.FetchStrategy.PPR : // (although invalid values should've been filtered out by prop validation in dev)
-        _segmentcache.FetchStrategy.Full;
-    }
 }
 if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {
     Object.defineProperty(exports.default, '__esModule', {
@@ -4092,8 +2803,8 @@ if ((typeof exports.default === 'function' || typeof exports.default === 'object
     });
     Object.assign(exports.default, exports);
     module.exports = exports.default;
-} //# sourceMappingURL=link.js.map
+} //# sourceMappingURL=link.react-server.js.map
 }),
-]);
+];
 
-//# sourceMappingURL=node_modules_next_dist_279f65b1._.js.map
+//# sourceMappingURL=_12b53289._.js.map
