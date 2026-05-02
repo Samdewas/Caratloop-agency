@@ -3629,3 +3629,157 @@ Caused by: Error: expected "{".
 [10:03:54.760] Server  LOG      ✓ Compiled in 8ms
 [10:03:55.181] Server  LOG      ✓ Compiled in 12ms
 [10:03:55.662] Server  LOG      ✓ Compiled in 10ms
+[10:15:10.507] Server  LOG      ✓ Compiled in 208ms
+[10:15:27.157] Server  LOG      ✓ Compiled in 16ms
+[10:15:30.881] Server  LOG      ✓ Compiled in 21ms
+[10:15:31.133] Server  LOG      ✓ Compiled in 14ms
+[10:15:31.388] Server  LOG      ✓ Compiled in 18ms
+[10:15:33.552] Server  LOG      ✓ Compiled in 12ms
+[10:15:35.154] Server  LOG      ✓ Compiled in 9ms
+[10:15:35.348] Server  LOG      ✓ Compiled in 10ms
+[10:15:37.040] Server  LOG      ✓ Compiled in 10ms
+[10:15:37.250] Server  LOG      ✓ Compiled in 31ms
+[10:15:37.466] Server  LOG      ✓ Compiled in 13ms
+[10:15:37.680] Server  LOG      ✓ Compiled in 10ms
+[10:15:37.946] Server  LOG      ✓ Compiled in 10ms
+[10:15:38.398] Server  LOG      ✓ Compiled in 13ms
+[10:15:40.372] Server  LOG      ✓ Compiled in 13ms
+[10:15:45.797] Server  LOG      ✓ Compiled in 10ms
+[10:15:46.774] Server  LOG      ✓ Compiled in 11ms
+[10:15:47.095] Server  LOG      ✓ Compiled in 9ms
+[10:15:47.396] Server  LOG      ✓ Compiled in 12ms
+[10:15:48.768] Server  LOG      ✓ Compiled in 14ms
+[10:15:50.668] Server  LOG      ✓ Compiled in 12ms
+[10:15:58.048] Server  LOG      ✓ Compiled in 13ms
+[10:16:11.788] Server  LOG      ✓ Compiled in 12ms
+[10:16:36.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:16:36.927] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[10:16:36.927] Browser WARN    Element not found: .shape
+[10:16:36.927] Browser LOG     Bootstrap loaded
+[10:16:59.823] Server  LOG      ✓ Compiled in 17ms
+[10:17:02.378] Server  LOG      ✓ Compiled in 12ms
+[10:17:31.302] Browser WARN    Element not found: .shape
+[10:17:31.302] Browser WARN    Element not found: .shape
+[10:17:47.330] Browser WARN    Element not found: .shape
+[10:17:47.330] Browser WARN    Element not found: .shape
+[10:19:50.951] Server  LOG      ✓ Compiled in 28ms
+[10:19:51.447] Browser ERROR   ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx:25:72
+Parsing ecmascript source code failed
+  23 |                 <div className="app-price-btn-box">
+  24 |                     <div className="animated-border-box w-100">
+> 25 |                         <Link className={`tp-btn-${plan.buttonVariant ?} sm w-100 text-center`} href="/contact">
+     |                                                                        ^
+  26 |                             Join this plan
+  27 |                         </Link>
+  28 |                     </div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx [Client Component Browser]
+    ./src/components/price-area/InnerPriceArea.tsx [Client Component Browser]
+    ./src/components/price-area/InnerPriceArea.tsx [Server Component]
+    ./src/pages/pricing/PricingMain.tsx [Server Component]
+    ./src/app/pricing-light/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx [Client Component SSR]
+    ./src/components/price-area/InnerPriceArea.tsx [Client Component SSR]
+    ./src/components/price-area/InnerPriceArea.tsx [Server Component]
+    ./src/pages/pricing/PricingMain.tsx [Server Component]
+    ./src/app/pricing-light/page.tsx [Server Component]
+[10:20:05.928] Server  LOG      ✓ Compiled in 10ms
+[10:20:07.449] Browser ERROR   ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx:25:72
+Parsing ecmascript source code failed
+  23 |                 <div className="app-price-btn-box">
+  24 |                     <div className="animated-border-box w-100">
+> 25 |                         <Link className={`tp-btn-${plan.buttonVariant =} sm w-100 text-center`} href="/contact">
+     |                                                                        ^
+  26 |                             Join this plan
+  27 |                         </Link>
+  28 |                     </div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx [Client Component Browser]
+    ./src/components/price-area/InnerPriceArea.tsx [Client Component Browser]
+    ./src/components/price-area/InnerPriceArea.tsx [Server Component]
+    ./src/pages/pricing/PricingMain.tsx [Server Component]
+    ./src/app/pricing-light/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx [Client Component SSR]
+    ./src/components/price-area/InnerPriceArea.tsx [Client Component SSR]
+    ./src/components/price-area/InnerPriceArea.tsx [Server Component]
+    ./src/pages/pricing/PricingMain.tsx [Server Component]
+    ./src/app/pricing-light/page.tsx [Server Component]
+[10:20:07.449] Browser ERROR   ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx:25:73
+Parsing ecmascript source code failed
+  23 |                 <div className="app-price-btn-box">
+  24 |                     <div className="animated-border-box w-100">
+> 25 |                         <Link className={`tp-btn-${plan.buttonVariant ==} sm w-100 text-center`} href="/contact">
+     |                                                                         ^
+  26 |                             Join this plan
+  27 |                         </Link>
+  28 |                     </div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx [Client Component Browser]
+    ./src/components/price-area/InnerPriceArea.tsx [Client Component Browser]
+    ./src/components/price-area/InnerPriceArea.tsx [Server Component]
+    ./src/pages/pricing/PricingMain.tsx [Server Component]
+    ./src/app/pricing-light/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx [Client Component SSR]
+    ./src/components/price-area/InnerPriceArea.tsx [Client Component SSR]
+    ./src/components/price-area/InnerPriceArea.tsx [Server Component]
+    ./src/pages/pricing/PricingMain.tsx [Server Component]
+    ./src/app/pricing-light/page.tsx [Server Component]
+[10:20:07.449] Browser ERROR   ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx:25:74
+Parsing ecmascript source code failed
+  23 |                 <div className="app-price-btn-box">
+  24 |                     <div className="animated-border-box w-100">
+> 25 |                         <Link className={`tp-btn-${plan.buttonVariant == } sm w-100 text-center`} href="/contact">
+     |                                                                          ^
+  26 |                             Join this plan
+  27 |                         </Link>
+  28 |                     </div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx [Client Component Browser]
+    ./src/components/price-area/InnerPriceArea.tsx [Client Component Browser]
+    ./src/components/price-area/InnerPriceArea.tsx [Server Component]
+    ./src/pages/pricing/PricingMain.tsx [Server Component]
+    ./src/app/pricing-light/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/price-area/subComponents/PriceAreaThreeCard.tsx [Client Component SSR]
+    ./src/components/price-area/InnerPriceArea.tsx [Client Component SSR]
+    ./src/components/price-area/InnerPriceArea.tsx [Server Component]
+    ./src/pages/pricing/PricingMain.tsx [Server Component]
+    ./src/app/pricing-light/page.tsx [Server Component]
+[10:20:11.550] Server  LOG      ✓ Compiled in 33ms
+[10:20:14.043] Server  LOG      ✓ Compiled in 10ms
+[10:20:18.959] Server  LOG      ✓ Compiled in 15ms
+[10:20:20.839] Server  LOG      ✓ Compiled in 8ms
+[10:20:21.029] Server  LOG      ✓ Compiled in 11ms
+[10:20:21.310] Server  LOG      ✓ Compiled in 8ms
+[10:20:21.668] Server  LOG      ✓ Compiled in 14ms
+[10:20:21.844] Server  LOG      ✓ Compiled in 7ms
+[10:20:22.296] Server  LOG      ✓ Compiled in 9ms
+[10:20:23.352] Server  LOG      ✓ Compiled in 6ms
+[10:20:23.878] Server  LOG      ✓ Compiled in 8ms
+[10:20:24.028] Server  LOG      ✓ Compiled in 8ms
+[10:20:24.968] Server  LOG      ✓ Compiled in 13ms
+[10:21:02.096] Server  LOG      ✓ Compiled in 61ms
+[10:21:10.474] Server  LOG      ✓ Compiled in 10ms

@@ -50,8 +50,8 @@ const ServiceSolution = () => {
                 </div>
                 <div className="row">
                     <div className="tp-service-4-solution-slider">
-                        {/* <Swiper
-                            className='tp-service-4-solution-active swiper'
+                        <Swiper
+                            className='tp-service-4-solution-active swiper d-lg-none'
                             modules={[Autoplay, Pagination]}
                             loop={true}
                             autoplay={false}
@@ -75,11 +75,11 @@ const ServiceSolution = () => {
                                     <ServiceCard key={service.id} service={service} />
                                 </SwiperSlide>
                             ))}
-                        </Swiper> */}
+                        </Swiper>
 
-                        <div className='row'>{servicesData.slice(46, 52).map((service) => (<ServiceCard key={service.id} service={service} />))}</div>
+                        <div className='row d-none d-lg-flex'>{servicesData.slice(46, 52).map((service) => (<ServiceCard key={service.id} service={service} />))}</div>
                     </div>
-                    <div className="tp-service-4-dot text-center"></div>
+                    <div className="tp-service-4-dot text-center d-lg-none"></div> 
                 </div>
             </div>
         </section >

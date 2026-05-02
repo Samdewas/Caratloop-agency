@@ -22,7 +22,7 @@ const PricePlanThreeCard = ({ plan }: { plan: PricePlanDT }) => {
                 </div>
                 <div className="app-price-btn-box">
                     <div className="animated-border-box w-100">
-                        <Link className={`tp-btn-${plan.buttonVariant} sm w-100 text-center`} href="/contact">
+                        <Link className={`tp-btn-${plan.buttonVariant == "gradient" ? "gradient theme-btn-color" : "black-border"} sm w-100 text-center`} href="/contact">
                             Join this plan
                         </Link>
                     </div>
