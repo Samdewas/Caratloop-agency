@@ -7,14 +7,14 @@ const ServiceFourBanner = () => {
     return (
         <div className="tp-service-4-banner-area p-relative">
             <div className="tp-service-4-bg-shape">
-                <Image src={serviceBg} alt="service" />
+                {/* <Image src={serviceBg} alt="service" /> */}
             </div>
             <div className="container container-1320">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="tp-service-4-banner-breadcrumb p-relative pb-25">
                             <span><Link href="/">Home</Link></span>{" "}
-                            <span>Service 04</span>
+                            <span>Service</span>
                         </div>
                     </div>
                 </div>

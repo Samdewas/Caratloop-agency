@@ -10,7 +10,7 @@ const headerMenuData:MenuItem[] = [
     // children: true,
     title: "Services",
     // pluseIncon: true,
-    link: "#",
+    link: "/service-4-light",
     // submenus: [
     //   {
     //     title: "Home Light Version",
@@ -253,7 +253,7 @@ const headerMenuData:MenuItem[] = [
     // children: true,
     title: "About Us",
     // pluseIncon: true,
-    link: "/shop-modern-light",
+    link: "/about-us-light",
     // submenus: [
     //   {
     //     title: "Shop Modern",
@@ -297,7 +297,7 @@ const headerMenuData:MenuItem[] = [
     // children: true,
     title: "Pricing",
     // pluseIncon: true,
-    link: "/shop-modern-light",
+    link: "/pricing-light",
     // submenus: [
     //   {
     //     title: "Shop Modern",

@@ -6,6 +6,7 @@ import ContactMeArea from '@/components/contacts/ContactMeArea';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 import ContactArea from '@/components/contacts/ContactArea';
+import DigitalMarketingHeader from '@/layouts/headers/DigitalMarketingHeader';
 
 const ContactMeMain = () => {
     return (
@@ -17,7 +18,7 @@ const ContactMeMain = () => {
                     </div>
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <DigitalMarketingHeader />
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             {/* Main Content Sections */}

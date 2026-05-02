@@ -23,9 +23,7 @@ const ContactHero = () => {
                                     <ArrowTwenty />
                                 </div>
                             </div>
-                            <h3 className="tp-career-title fs-100 pb-30">Any questions? <br />
-                                simply ask us this is <br />
-                                you home!</h3>
+                            <h3 className="tp-career-title fs-100 pb-30">Any questions? <br /> We’re here to help</h3>
                         </div>
                     </div>
                 </div>

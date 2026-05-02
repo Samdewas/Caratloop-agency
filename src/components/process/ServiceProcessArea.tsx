@@ -9,7 +9,7 @@ const ServiceProcessArea = () => {
     const { playVideo } = useVideoModal();
 
     return (
-        <div className="tp-service-4-process-ptb pt-140 pb-140">
+        <div className="tp-service-4-process-ptb pt-140">
             <div className="container container-1230">
                 <div className="row">
                     <div className="col-lg-12">
@@ -35,23 +35,23 @@ const ServiceProcessArea = () => {
                         <div className="tp-service-4-process-wrap">
                             <div className="tp-service-4-process-list">
                                 <span>01</span>
-                                <p>Thinking <br />
-                                    and research</p>
+                                <p>Free Store <br/> Audit</p>
                             </div>
                             <div className="tp-service-4-process-list">
                                 <span>02</span>
-                                <p>Discovering the <br />
-                                    problem</p>
+                                <p>Strategy & <br/> Planning</p>
                             </div>
                             <div className="tp-service-4-process-list">
                                 <span>03</span>
-                                <p>Scratch, design, <br />
-                                    and wireframing</p>
+                                <p>Design & <br/>   Development</p>
                             </div>
                             <div className="tp-service-4-process-list">
                                 <span>04</span>
-                                <p>Implementation <br />
-                                    and solution</p>
+                                <p>Migration from <br/> Etsy</p>
+                            </div>
+                            <div className="tp-service-4-process-list">
+                                <span>05</span>
+                                <p>Launch Your <br/> Brand</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const ServiceProcessArea = () => {
                                 </div>
                             </div>
                             <div className="tp-service-4-process-video">
-                                <button onClick={() => playVideo("VCPGMjCW0is")} className="popup-video dgm-testimonial-playbtn">
+                                <button onClick={() => playVideo("VCPGMjCW0is")} className="popup-video dgm-testimonial-playbtn theme-btn-color">
                                     <span><VideoPlayIcon /></span>
                                 </button>
                             </div>

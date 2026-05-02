@@ -28,7 +28,7 @@ export default function DigitalMarketingHero_main() {
                     <p>We help jewelry sellers migrate from Etsy to Shopify, build a luxury brand, and increase direct sales without relying on marketplaces.
                     </p>
                     <div className="tp_fade_anim" data-delay=".7">
-                        <Link className="tp-btn-black-square mr-15 theme-btn-color" href="/contact">
+                        <Link className="tp-btn-black-square mr-15 theme-btn-color" href="/contact-me-light">
                             <span>
                                 <span className="text-1">Book a Call</span>
                                 <span className="text-2">Book a Call</span>

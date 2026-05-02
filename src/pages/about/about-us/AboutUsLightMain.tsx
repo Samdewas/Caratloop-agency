@@ -13,6 +13,8 @@ import AboutUsBrand from '@/components/brand/AboutUsBrand';
 import AboutUsAward from '@/components/award/AboutUsAward';
 import HomeMainWork from '@/components/work/HomeMainWork';
 import AboutUsTeam from '@/components/team/AboutUsTeam';
+import DigitalMarketingHeader from '@/layouts/headers/DigitalMarketingHeader';
+import DigitalMarketingFooter from '@/layouts/footers/DigitalMarketingFooter';
 
 const AboutUsLightMain = () => {
     return (
@@ -25,7 +27,7 @@ const AboutUsLightMain = () => {
                     </div>
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <DigitalMarketingHeader />
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             <main>
@@ -34,12 +36,12 @@ const AboutUsLightMain = () => {
                                 <AboutUsBanner />
                                 <HomeMainAbout bgColur='#F6F6F9' spacingCls='pb-140' />
                                 <AboutUsService />
-                                <HomeMainFunFact />
-                                <HomeMainWork />
+                                {/* <HomeMainFunFact /> */}
+                                {/* <HomeMainWork /> */}
                                 <AboutUsTeam />
-                                <AboutUsAward />
+                                {/* <AboutUsAward /> */}
                             </main>
-                            <HomeMainFooter />
+                            <DigitalMarketingFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

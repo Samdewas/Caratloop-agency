@@ -9,10 +9,10 @@ const ContactArea = () => {
     return (
         <div className="tp-contact-me-ptb contact-career-shape p-relative z-index-3 pb-105">
             <div className="pp-about-shape">
-                <Image data-speed=".8" src={aboutShape} alt="about shape" />
+                {/* <Image data-speed=".8" src={aboutShape} alt="about shape" /> */}
             </div>
             <div className="tp-career-shape-1">
-                <span><CareerShapeTwo /></span>
+                {/* <span><CareerShapeTwo /></span> */}
             </div>
             <div className="container container-1230">
                 <div className="row">
@@ -24,7 +24,8 @@ const ContactArea = () => {
                             </span>
                             <h3 className="pp-service-details-title">
                                 {`Let's`} discuss <br />
-                                <Image src={thumb} alt="contact thumb" />your project!
+                                {/* <Image src={thumb} alt="contact thumb" /> */}
+                                your project!
                             </h3>
                         </div>
                         <div className="tp-contact-me-wrap">
@@ -38,7 +39,7 @@ const ContactArea = () => {
                 </div>
             </div>
             <div className="pp-service-shape">
-                <Image data-speed="1.1" src={shape2} alt="about shape" />
+                {/* <Image data-speed="1.1" src={shape2} alt="about shape" /> */}
             </div>
         </div>
     );

@@ -28,8 +28,11 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                             <div className="tp-about-wrap">
                                 <div className="tp-about-text tp_fade_anim">
                                     <p>
-                                        An independent web design and branding agency in Manchester set up in 2010 who care,
-                                        build relationships, have industry experience, and win awards.
+                                        An independent jewelry ecommerce
+and Shopify solutions agency
+built for CaratLoop brands who
+focus on growth, performance, and
+premium digital experiences.
                                     </p>
                                 </div>
                                 <div className="row">
@@ -37,14 +40,14 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                         <div className="tp-about-thumb">
                                             <Image style={{ width: "100%", height: "auto" }} data-speed=".8" src={aboutImgOne} alt="about-image" />
                                         </div>
-                                    </div>
+                                    </div>̉
                                     <div className="col-xl-7 col-lg-8 col-md-7">
                                         <div className="tp-about-funcact-wrap">
                                             <div className="tp-about-avater-info">
                                                 <Image className="tp_fade_anim" data-delay=".3"
                                                     data-fade-from="right" src={aboutAvater} alt="about-avater" />
                                                 <div className="tp_text_anim">
-                                                    <p>Driven by a passion for innovation, we specialize in <br /> delivering top-quality design solutions</p>
+                                                    <p>Driven by a passion for growth, we specialize in <br/> delivering high-performing ecommerce solutions</p>
                                                 </div>
                                             </div>
                                             {/* counter area */}

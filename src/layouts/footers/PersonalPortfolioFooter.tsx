@@ -14,9 +14,9 @@ const PersonalPortfolioFooter = ({ spacingClass = "pt-115" }) => {
                                 <div className="pp-footer-wrapper text-center">
                                     <span className="pp-footer-subtitle tp_fade_anim">Looking for a new talent</span>
                                     <h4 className="pp-footer-title tp_fade_anim not-hide-cursor" data-cursor="Send<br>Mail">
-                                        <Link className="codetext cursor-hide" href="mailto:hello@gmail.com">hello@gmail.com</Link>
+                                        <Link className="codetext cursor-hide" href="mailto:info@caratloop  .com">info@cartaloop.com</Link>
                                     </h4>
-                                    <div className="pp-footer-btn-box d-flex justify-content-center z-index-1">
+                                    {/* <div className="pp-footer-btn-box d-flex justify-content-center z-index-1">
                                         <div className="tp_fade_anim" data-delay=".3" data-fade-from="top" data-ease="bounce">
                                             <Link className="pp-footer-btn mr-15" href="/contact-me-light">Contact Me {" "}
                                                 <span><ArrowFour strokeWidth={2} /></span>
@@ -34,7 +34,7 @@ const PersonalPortfolioFooter = ({ spacingClass = "pt-115" }) => {
                                                 <span><ArrowFour strokeWidth={2} /></span>
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

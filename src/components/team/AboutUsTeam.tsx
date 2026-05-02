@@ -9,7 +9,7 @@ const AboutUsTeam = () => {
     const displayTeamData = teamMembersData.slice(15, 22);
 
     return (
-        <div className="tp-testimonial-area tp-team-bg black-bg-3 p-relative fix" style={{ backgroundImage: `url(${noiseBg.src})` }}>
+        <div className="tp-testimonial-area tp-team-bg black-bg-3 p-relative fix mb-50" style={{ backgroundImage: `url(${noiseBg.src})` }}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xl-6">

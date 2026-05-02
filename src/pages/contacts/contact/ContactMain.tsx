@@ -8,6 +8,8 @@ import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import InnerMapArea from '@/components/contacts/InnerMapArea';
 import ContactHero from '@/components/contacts/ContactHero';
+import DigitalMarketingHeader from '@/layouts/headers/DigitalMarketingHeader';
+import DigitalMarketingFooter from '@/layouts/footers/DigitalMarketingFooter';
 
 const ContactMain = () => {
     return (
@@ -20,18 +22,18 @@ const ContactMain = () => {
 
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <DigitalMarketingHeader />
 
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             {/* Main Content Sections */}
                             <main>
                                 <ContactHero />
-                                <InnerMapArea />
+                                {/* <InnerMapArea /> */}
                                 <ContactFormArea />
                                 <ContactLocationArea />
                             </main>
-                            <HomeMainFooter />
+                            <DigitalMarketingFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

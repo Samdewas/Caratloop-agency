@@ -3,13 +3,11 @@ import React, { useState } from "react";
 
 const ContactMeArea = () => {
     const categories = [
-        "Branding",
-        "Design Concept",
-        "App Design",
-        "Web Design",
-        "Android Development",
-        "iOS Development",
-        "Logo",
+        "Shopify Store Design for Jewelry Brands",
+        "Etsy to Shopify Migration",
+        "Luxury Branding & UI Design",
+        "Product Page Optimization",
+        "Shopify Setup & Apps Integration",
     ];
 
     const [activeCategories, setActiveCategories] = useState(["App Design"]);
@@ -76,7 +74,7 @@ const ContactMeArea = () => {
                                                 <textarea name="message"></textarea>
                                             </div>
                                             <div className="tp-contact-form-btn">
-                                                <button className="w-100" type="submit">
+                                                <button className="w-100 theme-btn-color" type="submit">
                                                     <span>
                                                         <span className="text-1">Send Message</span>
                                                         <span className="text-2">Send Message</span>

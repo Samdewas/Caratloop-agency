@@ -12,6 +12,7 @@ import ServiceFourBrand from '@/components/brand/ServiceFourBrand';
 import ServicePricing from '@/components/price-area/ServicePricing';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
+import DigitalMarketingHeader from '@/layouts/headers/DigitalMarketingHeader';
 
 const ServiceFourMain = () => {
     return (
@@ -24,7 +25,7 @@ const ServiceFourMain = () => {
 
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <DigitalMarketingHeader />
 
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
@@ -33,8 +34,8 @@ const ServiceFourMain = () => {
                                 <ServiceFourBanner />
                                 <ServiceSolution />
                                 <div className="tp-service-4-padding-area" style={{ backgroundColor: "#F6F8EF" }}>
-                                    <InnerServiceFour />
-                                    <ServiceFourBrand />
+                                    {/* <InnerServiceFour /> */}
+                                    {/* <ServiceFourBrand /> */}
                                     <ServicePricing />
                                 </div>
                                 <ServiceProcessArea />

@@ -1,4 +1,9 @@
 {
+  "/(about)/about-us-light/page": "app/(about)/about-us-light/page.js",
+  "/(contacts)/contact-me-light/page": "app/(contacts)/contact-me-light/page.js",
+  "/(contacts)/contact/page": "app/(contacts)/contact/page.js",
+  "/(services)/service-4-light/page": "app/(services)/service-4-light/page.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/pricing-light/page": "app/pricing-light/page.js"
 }

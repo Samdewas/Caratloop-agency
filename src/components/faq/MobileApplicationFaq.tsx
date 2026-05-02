@@ -44,7 +44,7 @@ const MobileApplicationFaq = () => {
     return (
         <div className="app-faq-area p-relative pb-120">
             <div className="app-faq-shape" data-speed=".8">
-                <Image src={faqShape} alt="faq-shape" />
+                {/* <Image src={faqShape} alt="faq-shape" /> */}
             </div>
             <div className="container container-1230">
                 <div className="row">

@@ -47,7 +47,7 @@ const DigitalMarketingTestimonial = () => {
             {/* <div className="dgm-testimonial-bg" style={{ backgroundImage: `url(${bgShape.src})` }}></div> */}
             <div className="dgm-testimonial-thumb">
                 <div className="anim-zoomin-wrap">
-                    <Image style={{ width: "100%", height: "100%" }} className="anim-zoomin" src={testBgImg} alt="bg-image" />
+                    <Image style={{ width: "100%", height: "auto" }} className="anim-zoomin" src={testBgImg} alt="bg-image" />
                 </div>
                 {/* <button onClick={() => playVideo("VCPGMjCW0is")}
                     className="dgm-testimonial-playbtn">

@@ -99,19 +99,19 @@ const servicesData: servicesDT[] = [
     {
         id: 9,
         title: "Branding",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
+        categories: ["UI/UX", "Webflow", "Envato"],
         link: "/service-details-2-light",
     },
     {
         id: 10,
-        title: "Identity",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
+        title: "Mobile App",
+        categories: ["UI/UX", "Webflow", "Envato"],
         link: "/service-details-2-light",
     },
     {
         id: 11,
-        title: "Impact",
-        categories: ["Logo design", "Brand Guidelines", "Visual Identity", "Custom Emails", "Presentations"],
+        title: "UI Design",
+        categories: ["UI/UX", "Webflow", "Envato"],
         link: "/service-details-2-light",
     },
     // home five design agency light data start
@@ -480,36 +480,43 @@ const servicesData: servicesDT[] = [
     //service four inner page service data
     {
         id: 47,
-        title: 'Branding Design',
-        description: "It's the core of your company's identity. It guides all business.",
+        title: 'Shopify Web Design for Jewelers',
+        description: "Build a Premium, High-Converting Jewelry Website",
         svgIcon: BrandingIcon,
         link: '/service-details-light'
     },
     {
         id: 48,
-        title: 'UI/UX Design',
-        description: "It's the core of your company's identity. It guides all business.",
+        title: 'Digital Marketing for Jewelers',
+        description: "Scale Your Jewelry Brand with Performance Marketing",
         svgIcon: UIUXDesignIcon,
         link: '/service-details-light'
     },
     {
         id: 49,
-        title: 'Web Development',
-        description: "It's the core of your company's identity. It guides all business.",
+        title: 'Social Media Marketing',
+        description: "Build a Strong Brand Presence on Social Media",
         svgIcon: WebDevelopmentIcon,
         link: '/service-details-light'
     },
     {
         id: 50,
-        title: 'Branding Design',
-        description: "It's the core of your company's identity. It guides all business.",
+        title: 'Search Engine Optimization (SEO)',
+        description: "Rank Higher & Get Organic Sales",
         svgIcon: BrandingIcon,
         link: '/service-details-light'
     },
     {
         id: 51,
-        title: 'UI/UX Design',
-        description: "It's the core of your company's identity. It guides all business.",
+        title: 'Lead Generation',
+        description: "Attract High-Intent Jewelry Buyers",
+        svgIcon: UIUXDesignIcon,
+        link: '/service-details-light'
+    },
+    {
+        id: 52,
+        title: 'Paid Advertising (Google & Meta Ads)',
+        description: "Drive Instant Traffic & Sales",
         svgIcon: UIUXDesignIcon,
         link: '/service-details-light'
     },

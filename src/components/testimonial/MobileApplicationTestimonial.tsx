@@ -11,10 +11,10 @@ const MobileApplicationTestimonial = ({ className }: { className?: string }) => 
         <div className="app-testimonial-area app-testimonial-ptb p-relative pb-140">
             <div className="app-testimonial-shape">
                 <div className="shape-1" data-speed=".9">
-                    <Image src={shape1} alt="shape" />
+                    {/* <Image src={shape1} alt="shape" /> */}
                 </div>
                 <div className="shape-2" data-speed="1.1">
-                    <Image src={shape2} alt="shape" />
+                    {/* <Image src={shape2} alt="shape" /> */}
                 </div>
                 <div className="shape-3">
                     <Image style={{ width: "100%", height: "auto" }} src={shapeCircle} alt="shape-circle" />
@@ -26,7 +26,7 @@ const MobileApplicationTestimonial = ({ className }: { className?: string }) => 
                         <div className="app-testimonial-warp mb-55">
                             <div className="app-testimonial-heading text-center p-relative mb-40">
                                 <span className="tp-section-subtitle border-bg bg-color tp_fade_anim" data-delay=".3">Testimonials</span>
-                                <h3 className={`tp-section-title-phudu ${className} mb-20 tp_fade_anim`} data-delay=".5">Trusted by 21,000+ <br /> customers</h3>
+                                <h3 className={`tp-section-title-phudu ${className} mb-20 tp_fade_anim`} data-delay=".5">Our Happy  <br /> customers</h3>
                                 <div className="app-testimonial-big-text">
                                     <h3>4.86</h3>
                                 </div>

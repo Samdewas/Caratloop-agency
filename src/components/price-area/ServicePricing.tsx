@@ -81,7 +81,7 @@ const ServicePricing = () => {
                 <div className="app-price-btn-box">
                     <div className={`animated-border-box ${plan.buttonVariant === 'gradient' ? 'radius-style-2' : ''} w-100`}>
                         <Link
-                            className={`${plan.buttonVariant === 'gradient' ? 'tp-btn-gradient sm' : 'tp-btn-black-border'} w-100 text-center`}
+                            className={`${plan.buttonVariant === 'gradient' ? 'tp-btn-gradient sm theme-btn-color' : 'tp-btn-black-border'} w-100 text-center`}
                             href="/contact"
                         >
                             Join this plan
@@ -93,9 +93,9 @@ const ServicePricing = () => {
     );
 
     return (
-        <section className="tp-service-4-price-ptb z-index-1 pb-140">
+        <section className="tp-service-4-price-ptb z-index-1 pb-100 pt-100">
             <div className="tp-service-4-price-shape">
-                <Image src={priceShape} alt="price shape" />
+                {/* <Image src={priceShape} alt="price shape" /> */}
             </div>
             <div className="container container-1230">
                 <div className="row">

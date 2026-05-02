@@ -281,11 +281,7 @@ const Wrapper = ({ children })=>{
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Wrapper.useEffect": ()=>{
             if ("TURBOPACK compile-time truthy", 1) {
-                (()=>{
-                    const e = new Error("Cannot find module 'bootstrap/dist/js/bootstrap.bundle.min'");
-                    e.code = 'MODULE_NOT_FOUND';
-                    throw e;
-                })().then({
+                __turbopack_context__.A("[project]/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js [app-client] (ecmascript, async loader)").then({
                     "Wrapper.useEffect": ()=>console.log("Bootstrap loaded")
                 }["Wrapper.useEffect"]).catch({
                     "Wrapper.useEffect": (err)=>console.error("Bootstrap failed to load", err)

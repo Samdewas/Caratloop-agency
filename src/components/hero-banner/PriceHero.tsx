@@ -23,9 +23,11 @@ const PriceHero = () => {
                                         <ArrowTwenty />
                                     </div>
                                 </div>
-                                <h3 className="tp-career-title pb-30">Start with <span className="shape-1">
+                                <h3 className="tp-career-title pb-30">Affordable price <br/>
+built to scale your &nbsp;
+ <span className="shape-1">
                                     <Image src={aboutShape} alt="about shape" />
-                                </span> <br />affordable price</h3>
+                                </span> <br /> jewelry business</h3>
                             </div>
                         </div>
                     </div>
@@ -33,7 +35,7 @@ const PriceHero = () => {
                         <div className="col-lg-4"></div>
                         <div className="col-lg-8">
                             <div className="tp-faq-text tp_fade_anim">
-                                <p>Agntix is a beacon of best innovation and the dynamic <br /> parent a company of wealcoder and many other subsidiaries.</p>
+                                <p>CaratLoop is a platform built on innovation and <br/> growth, empowering jewelry brands with advanced <br/>ecommerce solutions and a strong digital <br/>    foundation to scale and succeed.</p>
                             </div>
                         </div>
                     </div>

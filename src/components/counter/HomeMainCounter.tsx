@@ -5,14 +5,14 @@ const counter_data = [
   {
     id: 1,
     title: "Clients Satisfied and\nRepeating",
-    count: 98,
+    count: 99,
     suffix: '%',
     dataDelay:".3"
   },
   {
     id: 2,
     title: "Projects Completed in\n24 Countries",
-    count: 125,
+    count: 80,
     suffix: '+',
     dataDelay:".5"
   },

@@ -90504,6 +90504,37 @@ body.tp-magic-cursor #magic-cursor {
   color: #141414 !important;
 }
 
+.tp-header-bar button.tp-offcanvas-open-btn {
+  background: #1f514c;
+}
+
+.tp-header-bar button.tp-offcanvas-open-btn i {
+  background-color: #fff !important;
+}
+
+.crp-hero-funfact-wrap.crp-hero-funfact-bg {
+  margin-top: -155px;
+}
+
+.tp-contact-category-btn {
+  max-width: 300px;
+  line-height: 1.4;
+}
+
+.tp-contact-category-btn:hover {
+  color: #fff;
+  background: #1f514c;
+}
+
+.pp-footer-box {
+  background-color: #fff !important;
+  border: 1px solid #1f514c !important;
+}
+
+.pp-footer-box .pp-footer-title .codetext {
+  color: #1f514c !important;
+}
+
 .video-modal-overlay {
   z-index: 9999;
   background-color: #000000e6;

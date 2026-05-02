@@ -7,7 +7,7 @@ const ContactFormArea = () => {
         e.preventDefault();
     };
     return (
-        <div className="tp-contact-form-ptb pb-140">
+        <div className="tp-contact-form-ptb pb-100 pt-100">
             <div className="container container-1230">
                 <div className="row">
                     <div className="col-lg-6">

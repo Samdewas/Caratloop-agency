@@ -35,24 +35,24 @@ const ContactLocationArea = () => {
       phone: "(+91)76001726",
       email: "Hello@contact.com",
     },
-    {
-      title: "New Zealand",
-      time: "12:00 pm GMT+2",
-      img: contactLocation3,
-      addressTitle: "Base Create",
-      address: (
-        <>
-          1758 Berkeley <br /> St. Santa Monica, CA 90404
-        </>
-      ),
-      mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
-    },
+    // {
+    //   title: "New Zealand",
+    //   time: "12:00 pm GMT+2",
+    //   img: contactLocation3,
+    //   addressTitle: "Base Create",
+    //   address: (
+    //     <>
+    //       1758 Berkeley <br /> St. Santa Monica, CA 90404
+    //     </>
+    //   ),
+    //   mapLink: "https://www.google.com/maps",
+    //   phone: "(+91)76001726",
+    //   email: "Hello@contact.com",
+    // },
   ];
 
   return (
-    <div className="tp-contact-location-ptb p-relative pt-120 pb-170">
+    <div className="tp-contact-location-ptb p-relative pt-120 pb-170 mb-120">
       <div className="tp-gsap-bg" style={{ backgroundColor: "#101016" }}></div>
       <div className="container container-1430">
         <div className="tp-contact-location-wrapper">

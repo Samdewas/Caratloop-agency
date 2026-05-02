@@ -18,13 +18,13 @@ const AboutUsService = () => {
                         <div className="col-xl-6 col-lg-7">
                             <div className="creative-blog-title-box">
                                 <h4 className="tp-section-title fs-44">
-                                    How we take your <br /> business to the next level
+                                    How we take your <br/> jewelry business to the next level
                                 </h4>
                             </div>
                         </div>
                         <div className="col-xl-3 col-lg-5">
                             <div className="creative-service-top-content">
-                                <p>We are a digital marketing agency with expertise, and we’re on a mission to help you take the next step in your business.</p>
+                                <p>We are a jewelry ecommerce agency with expertise, and we’re on a mission to help you take the next step in your business.</p>
                                 <Link href="/blog-grid-2-col-light" className="tp-btn-black btn-red-bg pr-15">
                                     <span className="tp-btn-black-filter-blur">
                                         <ButtonBlurFilter filterId="buttonFilter5" />

@@ -208,3 +208,35 @@ border-radius: 8px;
   }
 }
 }
+
+.tp-header-bar{
+  & button.tp-offcanvas-open-btn{
+    background: $themeColor;
+    & i{
+      background-color: #fff !important;
+    }
+  }
+}
+
+.crp-hero-funfact-wrap.crp-hero-funfact-bg{
+    margin-top: -155px;
+}
+
+.tp-contact-category-btn {
+  max-width: 300px;
+  line-height: 1.4;
+  &:hover {
+    background: $themeColor;
+    color: #fff;
+  }
+}
+
+.pp-footer-box {
+  background-color: #fff !important;
+  border: 1px solid $themeColor !important;
+  & .pp-footer-title {
+  & .codetext {
+    color: $themeColor !important;
+  }
+}
+}

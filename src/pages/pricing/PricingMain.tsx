@@ -8,6 +8,8 @@ import InnerPriceArea from '@/components/price-area/InnerPriceArea';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 import PriceHero from '@/components/hero-banner/PriceHero';
+import DigitalMarketingHeader from '@/layouts/headers/DigitalMarketingHeader';
+import DigitalMarketingFooter from '@/layouts/footers/DigitalMarketingFooter';
 
 const PricingMain = () => {
     return (
@@ -19,7 +21,7 @@ const PricingMain = () => {
                     </div>
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <DigitalMarketingHeader />
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             {/* Main Content Sections */}
@@ -29,7 +31,7 @@ const PricingMain = () => {
                                 <MobileApplicationTestimonial className="ff-inter" />
                                 <MobileApplicationFaq />
                             </main>
-                            <CreativeAgencyFooter bgColor="#0E0F11" />
+                            <DigitalMarketingFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

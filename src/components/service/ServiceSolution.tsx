@@ -9,7 +9,7 @@ import Link from 'next/link';
 const ServiceSolution = () => {
 
     const ServiceCard = ({ service }: { service: servicesDT }) => (
-        <div className="swiper-slide">
+        <div className="swiper-slide1 col-lg-4">
             <div className="tp-service-4-solution-item mb-30">
                 <div className="tp-service-4-solution-item-icon">
                     <span>{service.svgIcon && <service.svgIcon />}</span>
@@ -37,20 +37,20 @@ const ServiceSolution = () => {
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="tp-service-4-solution-subtitle pb-50 tp_fade_anim">
-                            <p>Our Smart Solutions</p>
+                            <p>Our Smart Jewelry Solutions</p>
                         </div>
                     </div>
                     <div className="col-lg-7">
                         <div className="tp-service-4-solution-heading pb-100 tp_fade_anim">
                             <h3 className="tp-service-4-solution-title">
-                                From branding to funding, we <br /> provide the tools & strategies <br /> startups need to succeed in a <br /> competitive market.
+                                From store setup to scaling, we <br /> provide the tools & strategies<br /> jewelry brands need to succeed <br /> in a competitive market.
                             </h3>
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="tp-service-4-solution-slider">
-                        <Swiper
+                        {/* <Swiper
                             className='tp-service-4-solution-active swiper'
                             modules={[Autoplay, Pagination]}
                             loop={true}
@@ -75,7 +75,9 @@ const ServiceSolution = () => {
                                     <ServiceCard key={service.id} service={service} />
                                 </SwiperSlide>
                             ))}
-                        </Swiper>
+                        </Swiper> */}
+
+                        <div className='row'>{servicesData.slice(46, 52).map((service) => (<ServiceCard key={service.id} service={service} />))}</div>
                     </div>
                     <div className="tp-service-4-dot text-center"></div>
                 </div>
