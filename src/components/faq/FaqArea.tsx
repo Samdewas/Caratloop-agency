@@ -11,7 +11,7 @@ const FaqArea = () => {
                                     <div className="accordion-items">
                                         <h2 className="accordion-header">
                                             <button className="accordion-buttons" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
-                                                Will you be updating the program?
+                                                How long does Etsy to Shopify migration take?
                                                 <span className="accordion-icon"></span>
                                             </button>
                                         </h2>
@@ -28,7 +28,7 @@ const FaqArea = () => {
                                     <div className="accordion-items">
                                         <h2 className="accordion-header">
                                             <button className="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
-                                                If I have questions, where can I find answers?
+                                                Will I lose my Etsy customers or reviews?
                                                 <span className="accordion-icon"></span>
                                             </button>
                                         </h2>
@@ -45,7 +45,7 @@ const FaqArea = () => {
                                     <div className="accordion-items">
                                         <h2 className="accordion-header">
                                             <button className="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
-                                                How do you usually start new collaborations?
+                                                Can you redesign my existing Shopify store?
                                                 <span className="accordion-icon"></span>
                                             </button>
                                         </h2>
@@ -62,7 +62,7 @@ const FaqArea = () => {
                                     <div className="accordion-items">
                                         <h2 className="accordion-header">
                                             <button className="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
-                                                How I can optimize voice search?
+                                                Do you provide marketing services?
                                                 <span className="accordion-icon"></span>
                                             </button>
                                         </h2>
@@ -79,7 +79,7 @@ const FaqArea = () => {
                                     <div className="accordion-items">
                                         <h2 className="accordion-header">
                                             <button className="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive5" aria-expanded="false" aria-controls="collapseFive5">
-                                                Bring their individual experience and creative
+                                                What is the cost?
                                                 <span className="accordion-icon"></span>
                                             </button>
                                         </h2>
@@ -93,7 +93,7 @@ const FaqArea = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="accordion-items">
+                                    {/* <div className="accordion-items">
                                         <h2 className="accordion-header">
                                             <button className="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive5" aria-expanded="false" aria-controls="collapseFive5">
                                                 Can I get an invoice for my purchase?
@@ -109,7 +109,7 @@ const FaqArea = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

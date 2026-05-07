@@ -40,7 +40,7 @@ const DigitalMarketingService = () => {
                 <div className="dgm-service-wrap">
                     <div className="row">
                         <div className="col-xl-12">
-                            {servicesData.slice(0, 5).map((service) => (
+                            {servicesData.slice(0, 7).map((service) => (
                                 <DigitalMarketingServiceItem key={service.id} service={service} />
                             ))}
                         </div>

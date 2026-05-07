@@ -1,5 +1,5 @@
-import shapeCircle from '../../../public/assets/img/home-09/hero/funfact-circle-shape-2.png';
-import bgShape from '../../../public/assets/img/home-09/hero/funfact-bg-shape-2.png';
+import shapeCircle from '../../../public/assets/img/cartaloop/round.png';
+import bgShape from '../../../public/assets/img/cartaloop/Subtract.png';
 import { EmailIcon, MessageIcon, PhoneIcon } from '@/svg/ContactIcons';
 import teamBg from '../../../public/assets/img/team/team-bg.png';
 import { CareerShape } from '@/svg/HeroShape';

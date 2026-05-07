@@ -10,7 +10,7 @@ const headerMenuData:MenuItem[] = [
     // children: true,
     title: "Services",
     // pluseIncon: true,
-    link: "/service-4-light",
+    link: "/service",
     // submenus: [
     //   {
     //     title: "Home Light Version",
@@ -207,7 +207,7 @@ const headerMenuData:MenuItem[] = [
     // children: true,
     title: "Showcase",
     // pluseIncon: true,
-    link: "#",
+    link: "/portfolio",
     // submenus: [
     //   {
     //     title: "Blog Classic Light",
@@ -253,7 +253,7 @@ const headerMenuData:MenuItem[] = [
     // children: true,
     title: "About Us",
     // pluseIncon: true,
-    link: "/about-us-light",
+    link: "/about-us",
     // submenus: [
     //   {
     //     title: "Shop Modern",
@@ -297,7 +297,7 @@ const headerMenuData:MenuItem[] = [
     // children: true,
     title: "Pricing",
     // pluseIncon: true,
-    link: "/pricing-light",
+    link: "/pricing",
     // submenus: [
     //   {
     //     title: "Shop Modern",

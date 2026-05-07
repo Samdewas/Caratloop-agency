@@ -1,6 +1,6 @@
 
 import AboutUsServiceItem from './subComponents/AboutUsServiceItem';
-import { ArrowSvg, ButtonBlurFilter } from '@/svg';
+import { ArrowFour, ArrowSvg, ButtonBlurFilter } from '@/svg';
 import servicesData from '@/data/serviceData';
 import Link from 'next/link';
 
@@ -25,7 +25,7 @@ const AboutUsService = () => {
                         <div className="col-xl-3 col-lg-5">
                             <div className="creative-service-top-content">
                                 <p>We are a jewelry ecommerce agency with expertise, and we’re on a mission to help you take the next step in your business.</p>
-                                <Link href="/blog-grid-2-col-light" className="tp-btn-black btn-red-bg pr-15">
+                                {/* <Link href="/blog-grid-2-col-light" className="tp-btn-black btn-red-bg pr-15">
                                     <span className="tp-btn-black-filter-blur">
                                         <ButtonBlurFilter filterId="buttonFilter5" />
                                     </span>
@@ -35,7 +35,17 @@ const AboutUsService = () => {
                                             <ArrowSvg />
                                         </span>
                                     </span>
-                                </Link>
+                                </Link> */}
+                                <Link className="tp-btn-yellow-green green-solid theme-btn-color btn-60" href="/about-us-light">
+                                        <span>
+                                            <span className="text-1">See all Articles</span>
+                                            <span className="text-2">See all Articles</span>
+                                        </span>
+                                        <i>
+                                            <ArrowFour />
+                                            <ArrowFour />
+                                        </i>
+                                    </Link>
                             </div>
                         </div>
                     </div>
@@ -43,7 +53,7 @@ const AboutUsService = () => {
                 <div className="creative-service-wrap">
                     <div className="row">
                         <div className="offset-xl-3 col-xl-9">
-                            {servicesData.slice(8, 11).map((service, index) => (
+                            {servicesData.slice(0, 7).map((service, index) => (
                                 <AboutUsServiceItem key={service.id} service={service} index={index} />
                             ))}
                         </div>

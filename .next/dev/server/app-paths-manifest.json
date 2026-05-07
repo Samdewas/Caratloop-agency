@@ -1,9 +1,12 @@
 {
-  "/(about)/about-us-light/page": "app/(about)/about-us-light/page.js",
+  "/(about)/about-us/page": "app/(about)/about-us/page.js",
   "/(contacts)/contact-me-light/page": "app/(contacts)/contact-me-light/page.js",
   "/(contacts)/contact/page": "app/(contacts)/contact/page.js",
+  "/(portfolio)/portfolio-col-3-light/page": "app/(portfolio)/portfolio-col-3-light/page.js",
+  "/(portfolio)/portfolio/page": "app/(portfolio)/portfolio/page.js",
   "/(services)/service-4-light/page": "app/(services)/service-4-light/page.js",
+  "/(services)/service/page": "app/(services)/service/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/pricing-light/page": "app/pricing-light/page.js"
+  "/pricing/page": "app/pricing/page.js"
 }

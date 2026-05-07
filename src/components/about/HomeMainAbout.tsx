@@ -1,5 +1,5 @@
 import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png"
-import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.jpg"
+import aboutImgOne from "../../../public/assets/img/cartaloop/about2.png"
 import aboutAvater from "../../../public/assets/img/home-01/about/about-avater.png"
 import HomeMainCounter from "../counter/HomeMainCounter";
 import Image from "next/image";
@@ -29,10 +29,10 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                 <div className="tp-about-text tp_fade_anim">
                                     <p>
                                         An independent jewelry ecommerce
-and Shopify solutions agency
-built for CaratLoop brands who
-focus on growth, performance, and
-premium digital experiences.
+                                        and Shopify solutions agency
+                                        built for CaratLoop brands who
+                                        focus on growth, performance, and
+                                        premium digital experiences.
                                     </p>
                                 </div>
                                 <div className="row">
@@ -44,10 +44,10 @@ premium digital experiences.
                                     <div className="col-xl-7 col-lg-8 col-md-7">
                                         <div className="tp-about-funcact-wrap">
                                             <div className="tp-about-avater-info">
-                                                <Image className="tp_fade_anim" data-delay=".3"
-                                                    data-fade-from="right" src={aboutAvater} alt="about-avater" />
+                                                {/* <Image className="tp_fade_anim" data-delay=".3"
+                                                    data-fade-from="right" src={aboutAvater} alt="about-avater" /> */}
                                                 <div className="tp_text_anim">
-                                                    <p>Driven by a passion for growth, we specialize in <br/> delivering high-performing ecommerce solutions</p>
+                                                    <p>Driven by a passion for growth, we specialize in <br /> delivering high-performing ecommerce solutions</p>
                                                 </div>
                                             </div>
                                             {/* counter area */}

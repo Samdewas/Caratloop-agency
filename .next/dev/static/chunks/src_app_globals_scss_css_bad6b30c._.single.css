@@ -59161,11 +59161,6 @@ body.tp-magic-cursor #magic-cursor {
   background-size: 100% 100%;
 }
 
-.creative-service-item.about-us-4 .creative-service-title {
-  font-size: 120px;
-  font-weight: 600;
-}
-
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .creative-service-item.about-us-4 .creative-service-title {
     font-size: 105px;
@@ -90333,7 +90328,7 @@ body.tp-magic-cursor #magic-cursor {
 
 .theme-btn-color {
   color: #fff !important;
-  background-color: #1f514c !important;
+  background: #1f514c !important;
 }
 
 .theme-btn-color_border {
@@ -90533,6 +90528,24 @@ body.tp-magic-cursor #magic-cursor {
 
 .pp-footer-box .pp-footer-title .codetext {
   color: #1f514c !important;
+}
+
+.creative-service-item.about-us-4 .creative-service-title {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.agntix-light .crative-service-title-style .creative-service-item .creative-service-title a {
+  background-image: linear-gradient(#1f514c, #1f514c), none;
+}
+
+.agntix-light .crative-service-title-style .creative-service-item:hover .creative-service-link a {
+  background-color: #1f514c;
+  border: 1px solid #1f514c;
+}
+
+.ar-about-funfact-color .crp-hero-funfact-line, .ar-about-funfact-color .crp-hero-funfact-line:before {
+  background-color: #031a17;
 }
 
 .video-modal-overlay {

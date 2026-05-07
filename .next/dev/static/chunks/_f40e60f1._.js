@@ -8152,7 +8152,7 @@ const headerMenuData = [
         // children: true,
         title: "Services",
         // pluseIncon: true,
-        link: "/service-4-light"
+        link: "/service"
     },
     {
         id: 2,
@@ -8180,7 +8180,7 @@ const headerMenuData = [
         // children: true,
         title: "Showcase",
         // pluseIncon: true,
-        link: "#"
+        link: "/portfolio"
     },
     {
         id: 5,
@@ -8190,7 +8190,7 @@ const headerMenuData = [
         // children: true,
         title: "About Us",
         // pluseIncon: true,
-        link: "/about-us-light"
+        link: "/about-us"
     },
     {
         id: 6,
@@ -8200,7 +8200,7 @@ const headerMenuData = [
         // children: true,
         title: "Pricing",
         // pluseIncon: true,
-        link: "/pricing-light"
+        link: "/pricing"
     },
     {
         id: 7,

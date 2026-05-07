@@ -7,6 +7,7 @@ import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 import ContactArea from '@/components/contacts/ContactArea';
 import DigitalMarketingHeader from '@/layouts/headers/DigitalMarketingHeader';
+import DigitalMarketingFooter from '@/layouts/footers/DigitalMarketingFooter';
 
 const ContactMeMain = () => {
     return (
@@ -27,6 +28,7 @@ const ContactMeMain = () => {
                                 <ContactMeArea />
                             </main>
                             <PersonalPortfolioFooter />
+                            <DigitalMarketingFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

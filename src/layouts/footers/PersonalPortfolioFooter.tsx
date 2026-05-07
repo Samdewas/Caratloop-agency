@@ -6,7 +6,7 @@ const PersonalPortfolioFooter = ({ spacingClass = "pt-115" }) => {
     return (
         <footer>
             {/* -- footer area start -- */}
-            <div className={`pp-footer-area pp-footer-ptb ${spacingClass}`}>
+            <div className={`pp-footer-area pp-footer-ptb mb-100 ${spacingClass}`}>
                 <div className="container container-1750">
                     <div className="pp-footer-box">
                         <div className="row">
@@ -44,7 +44,7 @@ const PersonalPortfolioFooter = ({ spacingClass = "pt-115" }) => {
             {/* -- footer area end -- */}
 
             {/* -- footer copyright area start -- */}
-            <PortfolioCopyright />
+            {/* <PortfolioCopyright /> */}
             {/* -- footer copyright area end -- */}
 
         </footer>

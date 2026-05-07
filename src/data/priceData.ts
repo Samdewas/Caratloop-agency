@@ -94,9 +94,9 @@ const pricePlans: PricePlanDT[] = [
     //mobile application home-10 data start
     {
         id: 7,
-        name: 'Free',
-        price: '$0',
-        description: "Organize your daily task for free",
+        name: 'Starter',
+        price: '$99',
+        description: "Small Etsy sellers starting their independent brand",
         isPopular: false,
         features: [
             'Unlimited cards',

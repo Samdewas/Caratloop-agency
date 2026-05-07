@@ -5777,51 +5777,53 @@ const servicesData = [
     //Home main services data start
     {
         id: 1,
-        title: "Shopify Store Design for Jewelry Brands",
-        subtitle: "",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Shopify Web Design for Jewelers",
+        subtitle: "Build a Premium, High-Converting Jewelry Website",
+        description: "We design and develop luxury Shopify stores tailored specifically for jewelry brands. Our focus is on elegant design, seamless user experience, and conversion-driven layouts that reflect the true value of your products.",
         link: "/service-details-light"
     },
     {
         id: 2,
-        title: "Etsy to Shopify Migration",
-        subtitle: "(Products, Reviews, Customers)",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Digital Marketing for Jewelers",
+        subtitle: "Scale Your Jewelry Brand with Performance Marketing",
+        description: "We create and manage data-driven marketing campaigns that attract the right audience and convert them into paying customers.",
         link: "/service-details-light"
     },
     {
         id: 3,
-        title: "Luxury Branding & UI Design",
-        subtitle: "",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Social Media Marketing",
+        subtitle: "Build a Strong Brand Presence on Social Media",
+        description: "We help jewelry brands grow on platforms like Instagram and Facebook through engaging content and strategic campaigns.",
         link: "/service-details-light"
     },
     {
         id: 4,
-        title: "Product Page Optimization",
-        subtitle: "",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Search Engine Optimization (SEO)",
+        subtitle: "Rank Higher & Get Organic Sales",
+        description: "Our SEO strategies are tailored to the jewelry niche, helping your store rank higher on search engines and attract organic traffic.",
         link: "/service-details-light"
     },
     //Home main services data end
     //Home two services data start
     {
         id: 5,
-        title: "Shopify Setup & Apps Integration",
-        subtitle: "",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Lead Generation",
+        subtitle: "Attract High-Intent Jewelry Buyers",
+        description: "We build lead generation systems that capture and nurture potential customers, helping you grow your customer base.",
         link: "/service-details-light"
     },
     {
         id: 6,
-        title: "Social Marketing",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Paid Advertising (Google & Meta Ads)",
+        subtitle: "Drive Instant Traffic & Sales",
+        description: "We run highly targeted paid ad campaigns on Google, Facebook, and Instagram to generate immediate traffic and revenue.",
         link: "/service-details-light"
     },
     {
         id: 7,
-        title: "Content Marketing",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Local SEO",
+        subtitle: "Dominate Local Jewelry Searches",
+        description: "We optimize your business for local searches so nearby customers can easily find and visit your store.",
         link: "/service-details-light"
     },
     {
@@ -6551,7 +6553,7 @@ const DigitalMarketingService = ()=>{
                         className: "row",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "col-xl-12",
-                            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$serviceData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].slice(0, 5).map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$service$2f$subComponents$2f$DigitalMarketingServiceItem$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$serviceData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].slice(0, 7).map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$service$2f$subComponents$2f$DigitalMarketingServiceItem$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     service: service
                                 }, service.id, false, {
                                     fileName: "[project]/src/components/service/DigitalMarketingService.tsx",
@@ -8234,7 +8236,7 @@ const FaqArea = ()=>{
                                                     "aria-expanded": "true",
                                                     "aria-controls": "collapseOne1",
                                                     children: [
-                                                        "Will you be updating the program?",
+                                                        "How long does Etsy to Shopify migration take?",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "accordion-icon"
                                                         }, void 0, false, {
@@ -8309,7 +8311,7 @@ const FaqArea = ()=>{
                                                     "aria-expanded": "false",
                                                     "aria-controls": "collapseTwo2",
                                                     children: [
-                                                        "If I have questions, where can I find answers?",
+                                                        "Will I lose my Etsy customers or reviews?",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "accordion-icon"
                                                         }, void 0, false, {
@@ -8384,7 +8386,7 @@ const FaqArea = ()=>{
                                                     "aria-expanded": "false",
                                                     "aria-controls": "collapseThree3",
                                                     children: [
-                                                        "How do you usually start new collaborations?",
+                                                        "Can you redesign my existing Shopify store?",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "accordion-icon"
                                                         }, void 0, false, {
@@ -8459,7 +8461,7 @@ const FaqArea = ()=>{
                                                     "aria-expanded": "false",
                                                     "aria-controls": "collapseFour4",
                                                     children: [
-                                                        "How I can optimize voice search?",
+                                                        "Do you provide marketing services?",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "accordion-icon"
                                                         }, void 0, false, {
@@ -8534,7 +8536,7 @@ const FaqArea = ()=>{
                                                     "aria-expanded": "false",
                                                     "aria-controls": "collapseFive5",
                                                     children: [
-                                                        "Bring their individual experience and creative",
+                                                        "What is the cost?",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "accordion-icon"
                                                         }, void 0, false, {
@@ -8594,81 +8596,6 @@ const FaqArea = ()=>{
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/faq/FaqArea.tsx",
                                         lineNumber: 79,
-                                        columnNumber: 37
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "accordion-items",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "accordion-header",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: "accordion-buttons collapsed",
-                                                    type: "button",
-                                                    "data-bs-toggle": "collapse",
-                                                    "data-bs-target": "#collapseFive5",
-                                                    "aria-expanded": "false",
-                                                    "aria-controls": "collapseFive5",
-                                                    children: [
-                                                        "Can I get an invoice for my purchase?",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "accordion-icon"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                                            lineNumber: 100,
-                                                            columnNumber: 49
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                                    lineNumber: 98,
-                                                    columnNumber: 45
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                                lineNumber: 97,
-                                                columnNumber: 41
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                id: "collapseFive5",
-                                                className: "accordion-collapse collapse",
-                                                "data-bs-parent": "#accordionExample1",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "accordion-body",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        children: [
-                                                            "It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                                                lineNumber: 106,
-                                                                columnNumber: 177
-                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                            "We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                                                lineNumber: 107,
-                                                                columnNumber: 185
-                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                            "Then it’s off to signing off, kicking off."
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                                        lineNumber: 105,
-                                                        columnNumber: 49
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                                    lineNumber: 104,
-                                                    columnNumber: 45
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                                lineNumber: 103,
-                                                columnNumber: 41
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/faq/FaqArea.tsx",
-                                        lineNumber: 96,
                                         columnNumber: 37
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]

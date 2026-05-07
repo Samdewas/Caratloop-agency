@@ -5,40 +5,35 @@ const MobileApplicationFaq = () => {
     const faqItems = [
         {
             id: "collapseOne",
-            question: "What is Agntix?",
+            question: "How long does Etsy to Shopify migration take?    ",
             answer: "Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.",
             show: true
         },
         {
             id: "collapseTwo",
-            question: "Is there a mobile app available?",
+            question: "Will I lose my Etsy customers or reviews?",
             answer: "Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.",
             show: false
         },
         {
             id: "collapseThree",
-            question: "Google mobile can monetize your app?",
+            question: "Can you redesign my existing Shopify store?",
             answer: "Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.",
             show: false
         },
         {
             id: "collapseFour",
-            question: "Do you offer customer support?",
+            question: "Do you provide marketing services?",
             answer: "Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.",
             show: false
         },
         {
             id: "collapseFive",
-            question: "Do you offer customer support?",
+            question: "What is the cost?",
             answer: "Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.",
             show: false
         },
-        {
-            id: "collapseSix",
-            question: "Can I lock my note app?",
-            answer: "Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.",
-            show: false
-        }
+        
     ];
 
     return (

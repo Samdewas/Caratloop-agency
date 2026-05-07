@@ -1,4 +1,4 @@
-import aboutThumb from '../../../public/assets/img/about-us/about-us-4/about-us-4-thumb-1.jpg';
+import aboutThumb from '../../../public/assets/img/cartaloop/about1.png';
 import Image from 'next/image';
 
 const AboutUsBanner = ({ image = aboutThumb, spacingCls = "" }) => {

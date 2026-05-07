@@ -8975,51 +8975,53 @@ const servicesData = [
     //Home main services data start
     {
         id: 1,
-        title: "Shopify Store Design for Jewelry Brands",
-        subtitle: "",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Shopify Web Design for Jewelers",
+        subtitle: "Build a Premium, High-Converting Jewelry Website",
+        description: "We design and develop luxury Shopify stores tailored specifically for jewelry brands. Our focus is on elegant design, seamless user experience, and conversion-driven layouts that reflect the true value of your products.",
         link: "/service-details-light"
     },
     {
         id: 2,
-        title: "Etsy to Shopify Migration",
-        subtitle: "(Products, Reviews, Customers)",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Digital Marketing for Jewelers",
+        subtitle: "Scale Your Jewelry Brand with Performance Marketing",
+        description: "We create and manage data-driven marketing campaigns that attract the right audience and convert them into paying customers.",
         link: "/service-details-light"
     },
     {
         id: 3,
-        title: "Luxury Branding & UI Design",
-        subtitle: "",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Social Media Marketing",
+        subtitle: "Build a Strong Brand Presence on Social Media",
+        description: "We help jewelry brands grow on platforms like Instagram and Facebook through engaging content and strategic campaigns.",
         link: "/service-details-light"
     },
     {
         id: 4,
-        title: "Product Page Optimization",
-        subtitle: "",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Search Engine Optimization (SEO)",
+        subtitle: "Rank Higher & Get Organic Sales",
+        description: "Our SEO strategies are tailored to the jewelry niche, helping your store rank higher on search engines and attract organic traffic.",
         link: "/service-details-light"
     },
     //Home main services data end
     //Home two services data start
     {
         id: 5,
-        title: "Shopify Setup & Apps Integration",
-        subtitle: "",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Lead Generation",
+        subtitle: "Attract High-Intent Jewelry Buyers",
+        description: "We build lead generation systems that capture and nurture potential customers, helping you grow your customer base.",
         link: "/service-details-light"
     },
     {
         id: 6,
-        title: "Social Marketing",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Paid Advertising (Google & Meta Ads)",
+        subtitle: "Drive Instant Traffic & Sales",
+        description: "We run highly targeted paid ad campaigns on Google, Facebook, and Instagram to generate immediate traffic and revenue.",
         link: "/service-details-light"
     },
     {
         id: 7,
-        title: "Content Marketing",
-        description: "We immerse ourselves in your issues and we put our knowledge and expertise at your service",
+        title: "Local SEO",
+        subtitle: "Dominate Local Jewelry Searches",
+        description: "We optimize your business for local searches so nearby customers can easily find and visit your store.",
         link: "/service-details-light"
     },
     {
@@ -10997,7 +10999,7 @@ const headerMenuData = [
         // children: true,
         title: "Services",
         // pluseIncon: true,
-        link: "/service-4-light"
+        link: "/service"
     },
     {
         id: 2,
@@ -11025,7 +11027,7 @@ const headerMenuData = [
         // children: true,
         title: "Showcase",
         // pluseIncon: true,
-        link: "#"
+        link: "/portfolio"
     },
     {
         id: 5,
@@ -11035,7 +11037,7 @@ const headerMenuData = [
         // children: true,
         title: "About Us",
         // pluseIncon: true,
-        link: "/about-us-light"
+        link: "/about-us"
     },
     {
         id: 6,
@@ -11045,7 +11047,7 @@ const headerMenuData = [
         // children: true,
         title: "Pricing",
         // pluseIncon: true,
-        link: "/pricing-light"
+        link: "/pricing"
     },
     {
         id: 7,

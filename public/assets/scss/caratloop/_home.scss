@@ -55,7 +55,7 @@ $themeColor: #1f514c;
 }
 
 .theme-btn-color {
-  background-color: $themeColor !important;
+  background: $themeColor !important;
   color: white !important;
 }
 
@@ -239,4 +239,21 @@ border-radius: 8px;
     color: $themeColor !important;
   }
 }
+}
+
+
+.creative-service-item.about-us-4 .creative-service-title {
+    font-size: 70px;
+    font-weight: 600;
+}
+.agntix-light .crative-service-title-style .creative-service-item .creative-service-title a {
+  background-image: linear-gradient($themeColor, $themeColor), none;
+}
+.agntix-light .crative-service-title-style .creative-service-item:hover .creative-service-link a {
+    background-color: $themeColor;
+    border: 1px solid $themeColor;
+}
+
+.ar-about-funfact-color .crp-hero-funfact-line, .ar-about-funfact-color .crp-hero-funfact-line:before {
+    background-color: #031a17;
 }

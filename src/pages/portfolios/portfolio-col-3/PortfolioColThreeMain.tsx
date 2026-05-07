@@ -6,6 +6,8 @@ import PortfolioColThree from '@/components/portfolio/PortfolioColThree';
 import BreadcurmbTwo from '@/components/breadcurmb/BreadcurmbTwo';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
+import DigitalMarketingHeader from '@/layouts/headers/DigitalMarketingHeader';
+import DigitalMarketingFooter from '@/layouts/footers/DigitalMarketingFooter';
 
 const PortfolioColThreeMain = () => {
     return (
@@ -18,7 +20,7 @@ const PortfolioColThreeMain = () => {
 
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <DigitalMarketingHeader />
 
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
@@ -27,7 +29,8 @@ const PortfolioColThreeMain = () => {
                                 <BreadcurmbTwo />
                                 <PortfolioColThree />
                             </main>
-                            <CreativeAgencyFooter bgColor="#1b1b1d" />
+                            {/* <CreativeAgencyFooter bgColor="#1b1b1d" /> */}
+                            <DigitalMarketingFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

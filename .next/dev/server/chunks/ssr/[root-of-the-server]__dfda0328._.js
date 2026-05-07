@@ -6362,9 +6362,9 @@ const pricePlans = [
     //mobile application home-10 data start
     {
         id: 7,
-        name: 'Free',
-        price: '$0',
-        description: "Organize your daily task for free",
+        name: 'Starter',
+        price: '$99',
+        description: "Small Etsy sellers starting their independent brand",
         isPopular: false,
         features: [
             'Unlimited cards',
@@ -7717,7 +7717,7 @@ const headerMenuData = [
         // children: true,
         title: "Services",
         // pluseIncon: true,
-        link: "/service-4-light"
+        link: "/service"
     },
     {
         id: 2,
@@ -7745,7 +7745,7 @@ const headerMenuData = [
         // children: true,
         title: "Showcase",
         // pluseIncon: true,
-        link: "#"
+        link: "/portfolio"
     },
     {
         id: 5,
@@ -7755,7 +7755,7 @@ const headerMenuData = [
         // children: true,
         title: "About Us",
         // pluseIncon: true,
-        link: "/about-us-light"
+        link: "/about-us"
     },
     {
         id: 6,
@@ -7765,7 +7765,7 @@ const headerMenuData = [
         // children: true,
         title: "Pricing",
         // pluseIncon: true,
-        link: "/pricing-light"
+        link: "/pricing"
     },
     {
         id: 7,
